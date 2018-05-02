@@ -12,6 +12,10 @@
 		6FAB57C1209A1009007350D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAB57BF209A1009007350D1 /* Main.storyboard */; };
 		6FAB57C3209A1009007350D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAB57C2209A1009007350D1 /* Assets.xcassets */; };
 		6FAB57C6209A1009007350D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAB57C4209A1009007350D1 /* LaunchScreen.storyboard */; };
+		6FAB57CF209A10C8007350D1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAB57CE209A10C8007350D1 /* Home.storyboard */; };
+		6FAB57D1209A10DD007350D1 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAB57D0209A10DD007350D1 /* Contact.storyboard */; };
+		6FAB57D3209A10EA007350D1 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAB57D2209A10EA007350D1 /* About.storyboard */; };
+		6FAB57D5209A1269007350D1 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAB57D4209A1269007350D1 /* Setting.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		6FAB57C2209A1009007350D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FAB57C5209A1009007350D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FAB57C7209A1009007350D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FAB57CE209A10C8007350D1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		6FAB57D0209A10DD007350D1 /* Contact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
+		6FAB57D2209A10EA007350D1 /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
+		6FAB57D4209A1269007350D1 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		6FAB57BA209A1008007350D1 /* Tab Bar Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6FAB57CD209A1089007350D1 /* Storyboards */,
 				6FAB57BB209A1008007350D1 /* AppDelegate.swift */,
 				6FAB57BD209A1008007350D1 /* ViewController.swift */,
-				6FAB57BF209A1009007350D1 /* Main.storyboard */,
 				6FAB57C2209A1009007350D1 /* Assets.xcassets */,
 				6FAB57C4209A1009007350D1 /* LaunchScreen.storyboard */,
 				6FAB57C7209A1009007350D1 /* Info.plist */,
 			);
 			path = "Tab Bar Controller";
+			sourceTree = "<group>";
+		};
+		6FAB57CD209A1089007350D1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6FAB57BF209A1009007350D1 /* Main.storyboard */,
+				6FAB57CE209A10C8007350D1 /* Home.storyboard */,
+				6FAB57D0209A10DD007350D1 /* Contact.storyboard */,
+				6FAB57D2209A10EA007350D1 /* About.storyboard */,
+				6FAB57D4209A1269007350D1 /* Setting.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +145,11 @@
 			files = (
 				6FAB57C6209A1009007350D1 /* LaunchScreen.storyboard in Resources */,
 				6FAB57C3209A1009007350D1 /* Assets.xcassets in Resources */,
+				6FAB57D5209A1269007350D1 /* Setting.storyboard in Resources */,
+				6FAB57D3209A10EA007350D1 /* About.storyboard in Resources */,
 				6FAB57C1209A1009007350D1 /* Main.storyboard in Resources */,
+				6FAB57CF209A10C8007350D1 /* Home.storyboard in Resources */,
+				6FAB57D1209A10DD007350D1 /* Contact.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "Tab Bar Controller/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.Tab-Bar-Controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "Tab Bar Controller/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.Tab-Bar-Controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
