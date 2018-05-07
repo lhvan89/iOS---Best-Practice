@@ -32,6 +32,8 @@ class ViewController: UIViewController, TagListViewDelegate {
         tagList.addTag("Welcome")
         tagList.addTag("Book")
         tagList.addTag("Tivi show")
+        tagList.addTag("sdf")
+        tagList.addTag("iPhone")
     }
     
     func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {
