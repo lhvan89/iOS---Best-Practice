@@ -10,9 +10,13 @@ import UIKit
 import Localize_Swift
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var myLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
