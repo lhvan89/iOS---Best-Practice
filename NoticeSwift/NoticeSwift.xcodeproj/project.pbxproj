@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		216667F620A2D80F0052A8A0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216667F520A2D80F0052A8A0 /* SecondViewController.swift */; };
 		2177D89D20A2A960009BE22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177D89C20A2A960009BE22A /* AppDelegate.swift */; };
 		2177D89F20A2A960009BE22A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177D89E20A2A960009BE22A /* ViewController.swift */; };
 		2177D8A220A2A960009BE22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2177D8A020A2A960009BE22A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		216667F520A2D80F0052A8A0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2177D89920A2A960009BE22A /* NoticeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoticeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2177D89C20A2A960009BE22A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2177D89E20A2A960009BE22A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				2177D8A320A2A960009BE22A /* Assets.xcassets */,
 				2177D8A520A2A960009BE22A /* LaunchScreen.storyboard */,
 				2177D8A820A2A960009BE22A /* Info.plist */,
+				216667F520A2D80F0052A8A0 /* SecondViewController.swift */,
 			);
 			path = NoticeSwift;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216667F620A2D80F0052A8A0 /* SecondViewController.swift in Sources */,
 				2177D8AF20A2AA26009BE22A /* SwiftNotice.swift in Sources */,
 				2177D89F20A2A960009BE22A /* ViewController.swift in Sources */,
 				2177D89D20A2A960009BE22A /* AppDelegate.swift in Sources */,
