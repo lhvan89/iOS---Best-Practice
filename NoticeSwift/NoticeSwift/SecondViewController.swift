@@ -34,7 +34,8 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func noticeOnlyText(_ sender: Any) {
-        self.notice("SwiftNotice is a GUI library for displaying various popups (HUD) written in pure Swift, fits any scrollview and supports iPhone X.", type: .error, autoClear: true)
+        
+        self.noticeOnlyText("SwiftNotice is a GUI library for displaying various popups (HUD) written in pure Swift, fits any scrollview and supports iPhone X.")
     }
     
     @IBAction func noticeTop(_ sender: Any) {
