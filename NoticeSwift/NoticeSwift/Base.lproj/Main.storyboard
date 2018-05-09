@@ -113,8 +113,8 @@
                                     <action selector="clearAllNotice:" destination="7RC-Sa-lQW" eventType="touchUpInside" id="7zG-zj-i5m"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35Y-IX-xgt">
-                                <rect key="frame" x="87" y="82" width="200" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35Y-IX-xgt">
+                                <rect key="frame" x="87" y="74" width="200" height="40"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="qd5-85-ech"/>
