@@ -51,6 +51,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    @IBAction func makeAnimation(_ sender: UITapGestureRecognizer) {
+        springView.animation = "fadeInLeft"
+        springView.duration = 1
+        springView.animate()
+    }
+    
+    
     func doAnimation(ani: String) {
         springView.animation = ani
         springView.duration = 1

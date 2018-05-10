@@ -18,36 +18,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0pm-y7-c2w" customClass="SpringView" customModule="Spring_Demo" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0pm-y7-c2w" customClass="SpringView" customModule="Spring_Demo" customModuleProvider="target">
                                 <rect key="frame" x="112" y="20" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3N-6n-Wal" customClass="DesignableLabel" customModule="Spring_Demo" customModuleProvider="target">
+                                        <rect key="frame" x="54" y="65" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="v3N-6n-Wal" firstAttribute="centerX" secondItem="0pm-y7-c2w" secondAttribute="centerX" id="5Tr-8c-iyX"/>
+                                    <constraint firstAttribute="width" constant="150" id="Rgf-yg-RXn"/>
+                                    <constraint firstAttribute="height" constant="150" id="Z3r-mP-Alq"/>
+                                    <constraint firstItem="v3N-6n-Wal" firstAttribute="centerY" secondItem="0pm-y7-c2w" secondAttribute="centerY" id="efJ-jY-eka"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="force">
                                         <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="repeatCount">
-                                        <real key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="22I-EO-4C4" appends="YES" id="ZhW-KK-Z1s"/>
+                                </connections>
                             </view>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aEj-DI-jPr">
                                 <rect key="frame" x="0.0" y="451" width="375" height="216"/>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3N-6n-Wal" customClass="DesignableLabel" customModule="Spring_Demo" customModuleProvider="target">
-                                <rect key="frame" x="120" y="199" width="135" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="aEj-DI-jPr" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="GZQ-T3-x3C"/>
                             <constraint firstItem="aEj-DI-jPr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KfT-gP-gA2"/>
                             <constraint firstItem="aEj-DI-jPr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="S77-wV-1uk"/>
+                            <constraint firstItem="0pm-y7-c2w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pU9-pD-XAW"/>
+                            <constraint firstItem="0pm-y7-c2w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sqY-ZC-LQ3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -57,6 +66,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="22I-EO-4C4">
+                    <connections>
+                        <action selector="makeAnimation:" destination="BYZ-38-t0r" id="US0-rs-ZDK"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
         </scene>
