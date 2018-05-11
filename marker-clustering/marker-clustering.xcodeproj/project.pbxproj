@@ -37,6 +37,7 @@
 		21803C6420A57B3C00F0360C /* GQTPointQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 21803C4A20A57B3C00F0360C /* GQTPointQuadTree.m */; };
 		21803C6520A57B3C00F0360C /* GQTPointQuadTreeChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 21803C4C20A57B3C00F0360C /* GQTPointQuadTreeChild.m */; };
 		21B4C71520A5817D00523921 /* POIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4C71420A5817D00523921 /* POIItem.swift */; };
+		21B4C71920A5A6E500523921 /* GMUDefaultClusterRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4C71820A5A6E500523921 /* GMUDefaultClusterRenderer.swift */; };
 		F5049B88F5D02B80063FEBE3 /* Pods_marker_clustering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DB524DF952878694946B63 /* Pods_marker_clustering.framework */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +115,7 @@
 		21B4C71420A5817D00523921 /* POIItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIItem.swift; sourceTree = "<group>"; };
 		21B4C71620A5827100523921 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		21B4C71720A59C4A00523921 /* MarkerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkerManager.h; sourceTree = "<group>"; };
+		21B4C71820A5A6E500523921 /* GMUDefaultClusterRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMUDefaultClusterRenderer.swift; sourceTree = "<group>"; };
 		436641741B5A7092DE07561B /* Pods-marker-clustering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marker-clustering.release.xcconfig"; path = "Pods/Target Support Files/Pods-marker-clustering/Pods-marker-clustering.release.xcconfig"; sourceTree = "<group>"; };
 		A575B55F7B94BC85B6E82B4A /* Pods-marker-clustering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marker-clustering.debug.xcconfig"; path = "Pods/Target Support Files/Pods-marker-clustering/Pods-marker-clustering.debug.xcconfig"; sourceTree = "<group>"; };
 		D4DB524DF952878694946B63 /* Pods_marker_clustering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marker_clustering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +164,7 @@
 				21B4C71420A5817D00523921 /* POIItem.swift */,
 				21B4C71620A5827100523921 /* Bridging-Header.h */,
 				21B4C71720A59C4A00523921 /* MarkerManager.h */,
+				21B4C71820A5A6E500523921 /* GMUDefaultClusterRenderer.swift */,
 			);
 			path = "marker-clustering";
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				21803C5B20A57B3C00F0360C /* GMUSimpleClusterAlgorithm.m in Sources */,
 				21803BF820A57ACE00F0360C /* ViewController.swift in Sources */,
 				21803C5420A57B3C00F0360C /* GMULineString.m in Sources */,
+				21B4C71920A5A6E500523921 /* GMUDefaultClusterRenderer.swift in Sources */,
 				21803C6520A57B3C00F0360C /* GQTPointQuadTreeChild.m in Sources */,
 				21803C5C20A57B3C00F0360C /* GMUWrappingDictionaryKey.m in Sources */,
 				21803C5120A57B3C00F0360C /* GMUFeature.m in Sources */,

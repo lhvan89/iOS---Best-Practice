@@ -59,14 +59,27 @@ class ViewController: UIViewController, GMUClusterManagerDelegate, GMSMapViewDel
     private func generateClusterItems() {
         let extent = 0.2
         let kClusterItemCount = 5000
+//        for index in 1...kClusterItemCount {
+//            let lat = self.lat + extent * randomScale()
+//            let lng = self.long + extent * randomScale()
+//            let name = "Item \(index)"
+//            let item =
+//                POIItem(position: CLLocationCoordinate2DMake(lat, lng), name: name)
+//            clusterManager.add(item)
+//
+//        }
+        
         for index in 1...kClusterItemCount {
+            
             let lat = self.lat + extent * randomScale()
             let lng = self.long + extent * randomScale()
-            let name = "Item \(index)"
-            let item =
-                POIItem(position: CLLocationCoordinate2DMake(lat, lng), name: name)
-            clusterManager.add(item)
-        
+            
+            let position = CLLocationCoordinate2DMake(lat, lng)
+            let marker = GMSMarker(position: position)
+            
+            marker.icon = UIImage(named: "marker1")
+            let item = POIItem(position: position, marker: marker)
+            self.clusterManager.add(item)
         }
     }
     
@@ -88,7 +101,7 @@ class ViewController: UIViewController, GMUClusterManagerDelegate, GMSMapViewDel
     
     func mapView(mapView: GMSMapView, didTapMarker marker: GMSMarker) -> Bool {
         if let poiItem = marker.userData as? POIItem {
-            NSLog("Did tap marker for cluster item \(poiItem.name)")
+            NSLog("Did tap marker for cluster item \(poiItem.marker)")
         } else {
             NSLog("Did tap a normal marker")
         }

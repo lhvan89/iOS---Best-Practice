@@ -10,12 +10,23 @@ import Foundation
 
 /// Point of Interest Item which implements the GMUClusterItem protocol.
 
+//class POIItem: NSObject, GMUClusterItem {
+//    var position: CLLocationCoordinate2D
+//    var name: String!
+//
+//    init(position: CLLocationCoordinate2D, name: String) {
+//        self.position = position
+//        self.name = name
+//    }
+//}
+
 class POIItem: NSObject, GMUClusterItem {
     var position: CLLocationCoordinate2D
-    var name: String!
+    @objc var marker: GMSMarker!
     
-    init(position: CLLocationCoordinate2D, name: String) {
+    
+    init(position: CLLocationCoordinate2D, marker: GMSMarker) {
         self.position = position
-        self.name = name
+        self.marker = marker
     }
 }
