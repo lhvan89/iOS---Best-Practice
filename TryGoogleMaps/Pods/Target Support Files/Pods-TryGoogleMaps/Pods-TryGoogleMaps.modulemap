@@ -1,0 +1,6 @@
+framework module Pods_TryGoogleMaps {
+  umbrella header "Pods-TryGoogleMaps-umbrella.h"
+
+  export *
+  module * { export * }
+}
