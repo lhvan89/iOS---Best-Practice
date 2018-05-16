@@ -13,7 +13,6 @@
 		217BAED920ABDB5A00276174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217BAED820ABDB5A00276174 /* Assets.xcassets */; };
 		217BAEDC20ABDB5A00276174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217BAEDA20ABDB5A00276174 /* LaunchScreen.storyboard */; };
 		217BAEE420ABDBB900276174 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217BAEE320ABDBB900276174 /* SecondViewController.swift */; };
-		217BAEE620ABE00700276174 /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217BAEE520ABE00700276174 /* protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		217BAEDB20ABDB5A00276174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		217BAEDD20ABDB5A00276174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		217BAEE320ABDBB900276174 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		217BAEE520ABE00700276174 /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				217BAED820ABDB5A00276174 /* Assets.xcassets */,
 				217BAEDA20ABDB5A00276174 /* LaunchScreen.storyboard */,
 				217BAEDD20ABDB5A00276174 /* Info.plist */,
-				217BAEE520ABE00700276174 /* protocol.swift */,
 			);
 			path = "Delegate-Demo";
 			sourceTree = "<group>";
@@ -145,7 +142,6 @@
 				217BAEE420ABDBB900276174 /* SecondViewController.swift in Sources */,
 				217BAED420ABDB5A00276174 /* FirstViewController.swift in Sources */,
 				217BAED220ABDB5A00276174 /* AppDelegate.swift in Sources */,
-				217BAEE620ABE00700276174 /* protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
