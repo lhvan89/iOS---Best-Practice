@@ -14,9 +14,11 @@
 		21ADC29E20AAE94200B2BF0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21ADC29C20AAE94200B2BF0E /* LaunchScreen.storyboard */; };
 		21ADC2AA20AAEEEB00B2BF0E /* HCSingleAreaPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21ADC2A920AAEEEB00B2BF0E /* HCSingleAreaPopupView.xib */; };
 		21ADC2AC20AAEFD400B2BF0E /* HCSingleAreaPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADC2AB20AAEFD400B2BF0E /* HCSingleAreaPopupView.swift */; };
+		AC6CFD8829737879808166D2 /* Pods_PopupWithXib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F50B1DACADB0F525F3FFD4 /* Pods_PopupWithXib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C46A18E3D30B18ABB18628F /* Pods-PopupWithXib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupWithXib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopupWithXib/Pods-PopupWithXib.debug.xcconfig"; sourceTree = "<group>"; };
 		21ADC29020AAE94200B2BF0E /* PopupWithXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupWithXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21ADC29320AAE94200B2BF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21ADC29520AAE94200B2BF0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		21ADC29F20AAE94200B2BF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21ADC2A920AAEEEB00B2BF0E /* HCSingleAreaPopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HCSingleAreaPopupView.xib; sourceTree = "<group>"; };
 		21ADC2AB20AAEFD400B2BF0E /* HCSingleAreaPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCSingleAreaPopupView.swift; sourceTree = "<group>"; };
+		64F50B1DACADB0F525F3FFD4 /* Pods_PopupWithXib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupWithXib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5B81E0CF6CC5C5BE120B69 /* Pods-PopupWithXib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupWithXib.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopupWithXib/Pods-PopupWithXib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6CFD8829737879808166D2 /* Pods_PopupWithXib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				21ADC29220AAE94200B2BF0E /* PopupWithXib */,
 				21ADC29120AAE94200B2BF0E /* Products */,
+				DD86F47BE16E67E215911387 /* Pods */,
+				4EB05FC095EEB540CBB2107C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,23 @@
 			path = PopupWithXib;
 			sourceTree = "<group>";
 		};
+		4EB05FC095EEB540CBB2107C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64F50B1DACADB0F525F3FFD4 /* Pods_PopupWithXib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD86F47BE16E67E215911387 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C46A18E3D30B18ABB18628F /* Pods-PopupWithXib.debug.xcconfig */,
+				8B5B81E0CF6CC5C5BE120B69 /* Pods-PopupWithXib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21ADC2A220AAE94200B2BF0E /* Build configuration list for PBXNativeTarget "PopupWithXib" */;
 			buildPhases = (
+				7BEED5DDE60D2F2658D7C96E /* [CP] Check Pods Manifest.lock */,
 				21ADC28C20AAE94200B2BF0E /* Sources */,
 				21ADC28D20AAE94200B2BF0E /* Frameworks */,
 				21ADC28E20AAE94200B2BF0E /* Resources */,
+				C8B1A954828A22C7F1B2EEB1 /* [CP] Embed Pods Frameworks */,
+				223921A828DE6ECA192AABA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +164,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		223921A828DE6ECA192AABA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopupWithXib/Pods-PopupWithXib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BEED5DDE60D2F2658D7C96E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopupWithXib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8B1A954828A22C7F1B2EEB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PopupWithXib/Pods-PopupWithXib-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopupWithXib/Pods-PopupWithXib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21ADC28C20AAE94200B2BF0E /* Sources */ = {
@@ -280,6 +361,7 @@
 		};
 		21ADC2A320AAE94200B2BF0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C46A18E3D30B18ABB18628F /* Pods-PopupWithXib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +378,7 @@
 		};
 		21ADC2A420AAE94200B2BF0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5B81E0CF6CC5C5BE120B69 /* Pods-PopupWithXib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
