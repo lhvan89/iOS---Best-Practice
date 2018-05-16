@@ -21,6 +21,11 @@ class HomeViewController: UIViewController {
         vc.delegate = self
         navigationController?.pushViewController(vc, animated: true)
     }
+    
+    @IBAction func reset(_ sender: UIBarButtonItem) {
+        userName.setTitle("Select name", for: .normal)
+    }
+    
 }
 
 extension HomeViewController: LoginViewControllerDelegate {
