@@ -10,18 +10,22 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    @IBOutlet weak var id: UILabel!
-    @IBOutlet weak var name: UILabel!
-    @IBOutlet weak var price: UILabel!
+    @IBOutlet weak var productId: UILabel!
+    @IBOutlet weak var productName: UILabel!
+    @IBOutlet weak var productPrice: UILabel!
+    @IBOutlet weak var productImage: UIImageView!
     
     var product: Product!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        id.text = "id: \(product.id)"
-        name.text = "Name: \(product.name)"
-        price.text = "Price: $\(product.price)"
         
+        guard let id = product.id, let name = product.name, let price = product.price, let image = product.image else {return}
+
+        productImage.image = image
+        productId.text = "\(id)"
+        productName.text = "\(name)"
+        productPrice.text = "$\(price)"
+
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		215340F920B3FF4300A7B8A3 /* ProductCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215340F820B3FF4300A7B8A3 /* ProductCellTableViewCell.swift */; };
 		2162F02520B2682100AC940E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2162F02420B2682100AC940E /* AppDelegate.swift */; };
 		2162F02720B2682100AC940E /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2162F02620B2682100AC940E /* ProductsViewController.swift */; };
 		2162F02A20B2682100AC940E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2162F02820B2682100AC940E /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		215340F820B3FF4300A7B8A3 /* ProductCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellTableViewCell.swift; sourceTree = "<group>"; };
 		2162F02120B2682100AC940E /* Deep-Link-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deep-Link-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2162F02420B2682100AC940E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2162F02620B2682100AC940E /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		215340F720B3FF1400A7B8A3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				215340F820B3FF4300A7B8A3 /* ProductCellTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		2162F01820B2682000AC940E = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 				2162F02620B2682100AC940E /* ProductsViewController.swift */,
 				2162F03620B26B8100AC940E /* DetailViewController.swift */,
 				2162F03820B26D1000AC940E /* Product.swift */,
+				215340F720B3FF1400A7B8A3 /* Cell */,
 				2162F02820B2682100AC940E /* Main.storyboard */,
 				2162F02B20B2682100AC940E /* Assets.xcassets */,
 				2162F02D20B2682100AC940E /* LaunchScreen.storyboard */,
@@ -144,6 +155,7 @@
 			files = (
 				2162F03720B26B8100AC940E /* DetailViewController.swift in Sources */,
 				2162F03920B26D1000AC940E /* Product.swift in Sources */,
+				215340F920B3FF4300A7B8A3 /* ProductCellTableViewCell.swift in Sources */,
 				2162F02720B2682100AC940E /* ProductsViewController.swift in Sources */,
 				2162F02520B2682100AC940E /* AppDelegate.swift in Sources */,
 			);

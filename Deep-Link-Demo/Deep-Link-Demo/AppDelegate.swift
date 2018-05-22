@@ -42,66 +42,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-        var schemes = [String]()
-        
-        if let bundleURLTypes = Bundle.main.infoDictionary?["CFBundleURLTypes"] as? [NSDictionary] {
-            for bundleURLType in bundleURLTypes {
-                if let scheme = bundleURLType["CFBundleURLSchemes"] {
-                    if let streamArray = scheme as? [String] {
-                        schemes += streamArray
-                    }
-                }
-            }
-        }
-        
-        schemes = schemes.map({ (s) -> String in
-            return s.lowercased()
-        })
-        
-        if ("error" == url.host) {
-            print("error")
-            return false
-        }
-        
-        guard schemes.contains((url.scheme?.lowercased())!) else {
-            print("unknown")
-            return false
-        }
-        
-        let paths = url.pathComponents
-        
-        guard paths.count > 0 else {
-            print("invalid url path")
-            return false
-        }
-        
-        let urlComponents = NSURLComponents(url: url, resolvingAgainstBaseURL: false)
-        
-        if paths.count == 2 {
-            if paths[1] == "detail" {
-                if let queryItems = urlComponents?.queryItems, queryItems.count == 1 &&
-                    queryItems[0].name == "id"
-                {
-                    if let id = queryItems[0].value {
-                        showProduct(id: id)
-                    }
-                }
-            }
-        }
-        
         return true
     }
     func showProduct(id: String) {
-//        guard let product = ProductDataSource.sharedInstance[id] else {
-//            return
-//        }
-//        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ProductDetailViewController") as? ProductDetailViewController {
-//            vc.product = product
-//            vc.setupCloseButton()
-//            let nav = UINavigationController(rootViewController: vc)
-//            
-//            self.window?.rootViewController?.present(nav, animated: true, completion: nil)
-//        }
+
     }
 
 }
