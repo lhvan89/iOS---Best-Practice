@@ -18,9 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1q-Pr-Pi2">
-                                <rect key="frame" x="164" y="318" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1q-Pr-Pi2">
+                                <rect key="frame" x="112" y="313" width="150" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Aap-UH-I6f"/>
+                                    <constraint firstAttribute="width" constant="150" id="YCN-l3-phM"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="MyV-Zh-PLE" kind="show" id="WGn-d7-UN6"/>
@@ -28,6 +32,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="w1q-Pr-Pi2" firstAttribute="centerX" secondItem="nGK-W2-HM9" secondAttribute="centerX" id="CyQ-IZ-ik7"/>
+                            <constraint firstItem="w1q-Pr-Pi2" firstAttribute="centerY" secondItem="nGK-W2-HM9" secondAttribute="centerY" id="u1Y-69-dTM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fBM-D9-w2H"/>
                     </view>
                     <navigationItem key="navigationItem" id="I6g-Cb-j2D"/>

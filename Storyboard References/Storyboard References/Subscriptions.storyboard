@@ -18,9 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAY-9M-SrC">
-                                <rect key="frame" x="164" y="318" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAY-9M-SrC">
+                                <rect key="frame" x="112" y="313" width="150" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="egb-Sm-Euq"/>
+                                    <constraint firstAttribute="width" constant="150" id="rlY-Cg-SM8"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="G7E-ce-pc5" kind="show" id="z0p-SD-Cqr"/>
@@ -28,6 +32,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WAY-9M-SrC" firstAttribute="centerX" secondItem="cIa-tV-MUf" secondAttribute="centerX" id="MUb-FV-cLP"/>
+                            <constraint firstItem="WAY-9M-SrC" firstAttribute="centerY" secondItem="cIa-tV-MUf" secondAttribute="centerY" id="b2S-YJ-j3k"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="EcG-4G-zKR"/>
                     </view>
                     <navigationItem key="navigationItem" id="tha-tj-E9e"/>

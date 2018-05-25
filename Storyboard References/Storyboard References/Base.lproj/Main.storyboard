@@ -18,16 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgk-vy-wKw">
-                                <rect key="frame" x="164" y="318" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgk-vy-wKw">
+                                <rect key="frame" x="112" y="313" width="150" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Hbd-JG-xpj"/>
+                                    <constraint firstAttribute="width" constant="150" id="sCS-Zf-7S2"/>
+                                </constraints>
+                                <state key="normal" title="Login"/>
                                 <connections>
                                     <segue destination="4J6-4e-xRj" kind="show" id="DxI-mu-8oD"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wgk-vy-wKw" firstAttribute="centerX" secondItem="W68-eN-mmi" secondAttribute="centerX" id="QG1-R3-8GJ"/>
+                            <constraint firstItem="wgk-vy-wKw" firstAttribute="centerY" secondItem="W68-eN-mmi" secondAttribute="centerY" id="Ygc-6w-1uG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6J1-JU-Aca"/>
                     </view>
                 </viewController>
