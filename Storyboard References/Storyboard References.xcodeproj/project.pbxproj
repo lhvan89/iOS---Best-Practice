@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		21C97DF020B824D3002A8F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C97DEF20B824D3002A8F30 /* AppDelegate.swift */; };
-		21C97DF220B824D3002A8F30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C97DF120B824D3002A8F30 /* ViewController.swift */; };
 		21C97DF520B824D3002A8F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C97DF320B824D3002A8F30 /* Main.storyboard */; };
 		21C97DF720B824D3002A8F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C97DF620B824D3002A8F30 /* Assets.xcassets */; };
 		21C97DFA20B824D3002A8F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C97DF820B824D3002A8F30 /* LaunchScreen.storyboard */; };
@@ -20,7 +19,6 @@
 /* Begin PBXFileReference section */
 		21C97DEC20B824D3002A8F30 /* Storyboard References.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storyboard References.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C97DEF20B824D3002A8F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21C97DF120B824D3002A8F30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21C97DF420B824D3002A8F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21C97DF620B824D3002A8F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21C97DF920B824D3002A8F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				21C97DEF20B824D3002A8F30 /* AppDelegate.swift */,
-				21C97DF120B824D3002A8F30 /* ViewController.swift */,
 				21C97DF320B824D3002A8F30 /* Main.storyboard */,
 				21C97DF620B824D3002A8F30 /* Assets.xcassets */,
 				21C97DF820B824D3002A8F30 /* LaunchScreen.storyboard */,
@@ -148,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21C97DF220B824D3002A8F30 /* ViewController.swift in Sources */,
 				21C97DF020B824D3002A8F30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "Storyboard References/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.Storyboard-References";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "Storyboard References/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.Storyboard-References";
 				PRODUCT_NAME = "$(TARGET_NAME)";

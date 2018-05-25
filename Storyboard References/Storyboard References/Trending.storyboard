@@ -55,7 +55,9 @@
         <scene sceneID="7RM-kO-1Pa">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="w3i-kN-THZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="OGe-ik-90Q"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ibn-Aa-aRS">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
