@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="PlH-84-NcG">
             <objects>
-                <viewController id="JBd-01-BAV" sceneMemberID="viewController">
+                <viewController id="JBd-01-BAV" customClass="LoginViewController" customModule="Storyboard_References" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W68-eN-mmi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,9 +46,10 @@
         <!--Tab Bar Controller-->
         <scene sceneID="l6c-Jv-m1b">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="4J6-4e-xRj" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabbarVC" automaticallyAdjustsScrollViewInsets="NO" id="4J6-4e-xRj" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U6Z-Ua-7iq">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>

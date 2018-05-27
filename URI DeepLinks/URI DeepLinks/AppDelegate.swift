@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Storyboard References
+//  URI DeepLinks
 //
-//  Created by ✪ Lê Vấn ✪ on 5/25/18.
-//  Copyright © 2018 Van. All rights reserved.
+//  Created by lhvan on 5/27/18.
+//  Copyright © 2018 lhvan. All rights reserved.
 //
 
 import UIKit
@@ -16,23 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        print("lauch")
-        return true
-    }
-    
-    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool{
-        
-        print(url)
-
-        
-//        if let id = url.host {
-//            UserDefaults.standard.set(id, forKey: "appLinks")
-//            let rootViewController = self.window!.rootViewController as! UINavigationController
-//            let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-//            let vc = mainStoryboard.instantiateViewController(withIdentifier: "pokemonDetailVC") as! DetailViewController
-//            rootViewController.popToRootViewController(animated: false)
-//            rootViewController.pushViewController(vc, animated: true)
-//        }
         return true
     }
 
