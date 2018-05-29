@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: BaseMenuController {
+class HomeViewController: BaseMenuController {
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
     

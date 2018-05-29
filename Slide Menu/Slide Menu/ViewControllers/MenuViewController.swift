@@ -12,11 +12,12 @@ class MenuViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    let arrMenuName = ["iPhone", "iPad", "Macbook"]
-    let arrIcon = [#imageLiteral(resourceName: "iphone"), #imageLiteral(resourceName: "ipad"), #imageLiteral(resourceName: "macbook")]
+    let arrMenuName = ["Home", "Profile", "Orders", "Settings", "Logout"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.separatorColor = UIColor.clear
         
         tableView.dataSource = self
         tableView.delegate = self
@@ -32,7 +33,7 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellMenu") as! MenuTableViewCell
-        cell.imageIcon.image = arrIcon[indexPath.row]
+        cell.imageIcon.image = UIImage(named: arrMenuName[indexPath.row])
         cell.labelName.text = arrMenuName[indexPath.row]
         return cell
     }
