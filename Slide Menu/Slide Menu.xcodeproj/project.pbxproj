@@ -13,6 +13,10 @@
 		211A821620BCFA9C00B44DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211A821520BCFA9C00B44DA9 /* Assets.xcassets */; };
 		211A821920BCFA9C00B44DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211A821720BCFA9C00B44DA9 /* LaunchScreen.storyboard */; };
 		211A822420BCFBF000B44DA9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211A822320BCFBEF00B44DA9 /* SWRevealViewController.m */; };
+		211A822620BD06EF00B44DA9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A822520BD06EF00B44DA9 /* MenuViewController.swift */; };
+		211A822820BD070300B44DA9 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A822720BD070300B44DA9 /* MenuTableViewCell.swift */; };
+		211A822B20BD178D00B44DA9 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A822A20BD178D00B44DA9 /* MessageViewController.swift */; };
+		211A822D20BD42BC00B44DA9 /* BaseMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A822C20BD42BC00B44DA9 /* BaseMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		211A822120BCFBEF00B44DA9 /* Slide Menu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Slide Menu-Bridging-Header.h"; sourceTree = "<group>"; };
 		211A822220BCFBEF00B44DA9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		211A822320BCFBEF00B44DA9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		211A822520BD06EF00B44DA9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		211A822720BD070300B44DA9 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		211A822A20BD178D00B44DA9 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		211A822C20BD42BC00B44DA9 /* BaseMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		211A820D20BCFA9C00B44DA9 /* Slide Menu */ = {
 			isa = PBXGroup;
 			children = (
+				211A822920BD174400B44DA9 /* ViewControllers */,
 				211A822020BCFBC800B44DA9 /* SWRevealViewController */,
 				211A820E20BCFA9C00B44DA9 /* AppDelegate.swift */,
 				211A821020BCFA9C00B44DA9 /* ViewController.swift */,
@@ -77,6 +86,17 @@
 				211A822120BCFBEF00B44DA9 /* Slide Menu-Bridging-Header.h */,
 			);
 			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		211A822920BD174400B44DA9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				211A822520BD06EF00B44DA9 /* MenuViewController.swift */,
+				211A822720BD070300B44DA9 /* MenuTableViewCell.swift */,
+				211A822A20BD178D00B44DA9 /* MessageViewController.swift */,
+				211A822C20BD42BC00B44DA9 /* BaseMenuController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +175,10 @@
 				211A821120BCFA9C00B44DA9 /* ViewController.swift in Sources */,
 				211A820F20BCFA9C00B44DA9 /* AppDelegate.swift in Sources */,
 				211A822420BCFBF000B44DA9 /* SWRevealViewController.m in Sources */,
+				211A822D20BD42BC00B44DA9 /* BaseMenuController.swift in Sources */,
+				211A822620BD06EF00B44DA9 /* MenuViewController.swift in Sources */,
+				211A822B20BD178D00B44DA9 /* MessageViewController.swift in Sources */,
+				211A822820BD070300B44DA9 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "Slide Menu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.Slide-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -313,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "Slide Menu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.Slide-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";

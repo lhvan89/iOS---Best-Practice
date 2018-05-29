@@ -13,36 +13,104 @@
         <!--Reveal View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="SWRevealViewController" id="BYZ-38-t0r" customClass="SWRevealViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SWRevealViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <segue destination="UfA-jh-Ep7" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="c2a-sE-DQm"/>
-                        <segue destination="Uv2-w5-AlH" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="sSg-70-2Mr"/>
+                        <segue destination="xCu-u4-l2R" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="CmJ-zu-EW8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-108" y="3"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="Rs1-X4-Mq7">
             <objects>
-                <viewController id="UfA-jh-Ep7" sceneMemberID="viewController">
+                <viewController id="UfA-jh-Ep7" customClass="MenuViewController" customModule="Slide_Menu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GxK-2Q-gaH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3ht-Ks-YM3">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cellMenu" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellMenu" rowHeight="36" id="t6a-hc-Bkj" customClass="MenuTableViewCell" customModule="Slide_Menu" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="36"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t6a-hc-Bkj" id="DzU-H5-t7n">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="35.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l5K-dH-AGP">
+                                                    <rect key="frame" x="10" y="2.5" width="30" height="30.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="OAm-AN-hMb"/>
+                                                        <constraint firstAttribute="width" constant="30" id="ToD-Zw-KQY"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayV-Nl-9k3">
+                                                    <rect key="frame" x="48" y="7.5" width="312" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ayV-Nl-9k3" firstAttribute="leading" secondItem="l5K-dH-AGP" secondAttribute="trailing" constant="8" id="8Zh-fz-NHQ"/>
+                                                <constraint firstItem="l5K-dH-AGP" firstAttribute="leading" secondItem="DzU-H5-t7n" secondAttribute="leading" constant="10" id="E61-RS-st3"/>
+                                                <constraint firstAttribute="trailing" secondItem="ayV-Nl-9k3" secondAttribute="trailing" constant="15" id="RBZ-DP-f2E"/>
+                                                <constraint firstItem="l5K-dH-AGP" firstAttribute="centerY" secondItem="DzU-H5-t7n" secondAttribute="centerY" id="wX0-F8-LeN"/>
+                                                <constraint firstItem="ayV-Nl-9k3" firstAttribute="centerY" secondItem="DzU-H5-t7n" secondAttribute="centerY" id="x0B-8c-QUV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageIcon" destination="l5K-dH-AGP" id="kfU-ac-UTr"/>
+                                            <outlet property="labelName" destination="ayV-Nl-9k3" id="5nu-5J-5LY"/>
+                                            <segue destination="cux-lR-iwK" kind="custom" identifier="MessageViewController" customClass="SWRevealViewControllerSeguePushController" id="a0r-IG-gLp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="9mX-vd-hjf" firstAttribute="trailing" secondItem="3ht-Ks-YM3" secondAttribute="trailing" id="Bs0-ex-5LF"/>
+                            <constraint firstItem="3ht-Ks-YM3" firstAttribute="top" secondItem="9mX-vd-hjf" secondAttribute="top" id="bS0-vP-knd"/>
+                            <constraint firstItem="3ht-Ks-YM3" firstAttribute="leading" secondItem="9mX-vd-hjf" secondAttribute="leading" id="drO-Rl-WUc"/>
+                            <constraint firstItem="9mX-vd-hjf" firstAttribute="bottom" secondItem="3ht-Ks-YM3" secondAttribute="bottom" id="i3a-B6-e8S"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9mX-vd-hjf"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="3ht-Ks-YM3" id="SN3-Ej-Qsb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8yl-RF-x7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="-309"/>
+            <point key="canvasLocation" x="852" y="-314.39280359820094"/>
+        </scene>
+        <!--Message View Controller-->
+        <scene sceneID="rXL-Mq-oMZ">
+            <objects>
+                <viewController storyboardIdentifier="MessageViewController" id="TlW-vS-eJh" customClass="MessageViewController" customModule="Slide_Menu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IHr-p0-7Gg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="sAt-ar-lCy"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LXk-sw-4Nv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4sF-iH-7nD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3054" y="-343"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nCY-5d-kEL">
@@ -51,7 +119,7 @@
                     <view key="view" contentMode="scaleToFill" id="F47-4m-Huh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="73r-Tr-6hs"/>
                     </view>
                     <navigationItem key="navigationItem" id="Lla-kJ-54a">
@@ -63,22 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fMD-bB-qI7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2658" y="835"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="CGx-jQ-OBK">
-            <objects>
-                <viewController id="Uv2-w5-AlH" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SCF-sr-j07">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="Fzh-EC-st0"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qlM-zB-HhR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="926" y="389"/>
+            <point key="canvasLocation" x="1679" y="359"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="z40-mN-RNL">
@@ -96,10 +149,28 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B6e-WH-P2R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1847" y="824"/>
+            <point key="canvasLocation" x="852" y="360"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="M84-gP-B6k">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cux-lR-iwK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="J8D-I5-sa9">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="TlW-vS-eJh" kind="relationship" relationship="rootViewController" id="EU8-8H-d0B"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L55-h2-PUX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2105" y="-343"/>
         </scene>
     </scenes>
     <resources>
-        <image name="menu" width="32" height="32"/>
+        <image name="menu" width="24" height="24"/>
     </resources>
 </document>
