@@ -19,5 +19,9 @@ class HomeViewController: BaseMenuController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func goToScreen(_ sender: UIButton) {
+        let title = sender.currentTitle!
+        self.revealViewController().rearViewController.performSegue(withIdentifier: title, sender: self.revealViewController().rearViewController)
+    }
 }

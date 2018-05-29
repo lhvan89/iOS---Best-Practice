@@ -143,7 +143,7 @@
                     <view key="view" contentMode="scaleToFill" id="snW-NO-2NA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="Wt6-a5-7Ih"/>
                     </view>
                     <navigationItem key="navigationItem" title="Orders" id="La8-LY-emC"/>
@@ -159,7 +159,7 @@
                     <view key="view" contentMode="scaleToFill" id="IHr-p0-7Gg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="sAt-ar-lCy"/>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="LXk-sw-4Nv"/>
@@ -175,14 +175,83 @@
                     <view key="view" contentMode="scaleToFill" id="F47-4m-Huh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="7DJ-ny-eAX">
+                                <rect key="frame" x="40" y="235.5" width="295" height="196"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbh-F3-VDt">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="40"/>
+                                        <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="30c-2H-A2A"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                        <state key="normal" title="Profile">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="goToScreen:" destination="Bt0-eG-7AA" eventType="touchUpInside" id="LJ2-Yf-K6O"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhx-vo-aUj">
+                                        <rect key="frame" x="0.0" y="52" width="295" height="40"/>
+                                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="bec-CS-nhq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                        <state key="normal" title="Orders">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="goToScreen:" destination="Bt0-eG-7AA" eventType="touchUpInside" id="SWg-wq-vT6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAF-YD-nn3">
+                                        <rect key="frame" x="0.0" y="104" width="295" height="40"/>
+                                        <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="IcO-ZZ-mIM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                        <state key="normal" title="Settings">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="goToScreen:" destination="Bt0-eG-7AA" eventType="touchUpInside" id="X2Y-T0-SVR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aX-mO-BZR">
+                                        <rect key="frame" x="0.0" y="156" width="295" height="40"/>
+                                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="aeC-wS-L80"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                        <state key="normal" title="Logout">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="goToScreen:" destination="Bt0-eG-7AA" eventType="touchUpInside" id="U6T-3V-f00"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7DJ-ny-eAX" firstAttribute="centerY" secondItem="F47-4m-Huh" secondAttribute="centerY" id="8ci-09-yZo"/>
+                            <constraint firstItem="7DJ-ny-eAX" firstAttribute="leading" secondItem="73r-Tr-6hs" secondAttribute="leading" constant="40" id="DgO-Ch-9Pr"/>
+                            <constraint firstItem="73r-Tr-6hs" firstAttribute="trailing" secondItem="7DJ-ny-eAX" secondAttribute="trailing" constant="40" id="RDy-dM-rNl"/>
+                            <constraint firstItem="7DJ-ny-eAX" firstAttribute="centerX" secondItem="F47-4m-Huh" secondAttribute="centerX" id="b1M-z5-Jos"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="73r-Tr-6hs"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="Lla-kJ-54a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fMD-bB-qI7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="81" y="1333"/>
+            <point key="canvasLocation" x="80.799999999999997" y="1332.6836581709147"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="z40-mN-RNL">
@@ -235,7 +304,7 @@
                     <view key="view" contentMode="scaleToFill" id="fEN-yE-SGf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="ZWL-Dj-5ad"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="lxf-Bn-Ne9"/>
@@ -273,7 +342,7 @@
                     <view key="view" contentMode="scaleToFill" id="yre-jx-grg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="41Y-9I-kEV"/>
                     </view>
                     <navigationItem key="navigationItem" title="Logout" id="Kqi-CX-lWV"/>
