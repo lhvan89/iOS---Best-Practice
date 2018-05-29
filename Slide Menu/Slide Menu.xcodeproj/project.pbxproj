@@ -15,8 +15,11 @@
 		211A822420BCFBF000B44DA9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211A822320BCFBEF00B44DA9 /* SWRevealViewController.m */; };
 		211A822620BD06EF00B44DA9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A822520BD06EF00B44DA9 /* MenuViewController.swift */; };
 		211A822820BD070300B44DA9 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A822720BD070300B44DA9 /* MenuTableViewCell.swift */; };
-		211A822B20BD178D00B44DA9 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A822A20BD178D00B44DA9 /* MessageViewController.swift */; };
+		211A822B20BD178D00B44DA9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A822A20BD178D00B44DA9 /* ProfileViewController.swift */; };
 		211A822D20BD42BC00B44DA9 /* BaseMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A822C20BD42BC00B44DA9 /* BaseMenuController.swift */; };
+		211A822F20BD576000B44DA9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A822E20BD576000B44DA9 /* SettingsViewController.swift */; };
+		211A823120BD5FF600B44DA9 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A823020BD5FF600B44DA9 /* OrdersViewController.swift */; };
+		211A823320BD602700B44DA9 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A823220BD602700B44DA9 /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +35,11 @@
 		211A822320BCFBEF00B44DA9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		211A822520BD06EF00B44DA9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		211A822720BD070300B44DA9 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
-		211A822A20BD178D00B44DA9 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		211A822A20BD178D00B44DA9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		211A822C20BD42BC00B44DA9 /* BaseMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMenuController.swift; sourceTree = "<group>"; };
+		211A822E20BD576000B44DA9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		211A823020BD5FF600B44DA9 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		211A823220BD602700B44DA9 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +99,11 @@
 				211A821020BCFA9C00B44DA9 /* HomeViewController.swift */,
 				211A822520BD06EF00B44DA9 /* MenuViewController.swift */,
 				211A822720BD070300B44DA9 /* MenuTableViewCell.swift */,
-				211A822A20BD178D00B44DA9 /* MessageViewController.swift */,
+				211A822A20BD178D00B44DA9 /* ProfileViewController.swift */,
 				211A822C20BD42BC00B44DA9 /* BaseMenuController.swift */,
+				211A822E20BD576000B44DA9 /* SettingsViewController.swift */,
+				211A823020BD5FF600B44DA9 /* OrdersViewController.swift */,
+				211A823220BD602700B44DA9 /* LogoutViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -176,9 +185,12 @@
 				211A820F20BCFA9C00B44DA9 /* AppDelegate.swift in Sources */,
 				211A822420BCFBF000B44DA9 /* SWRevealViewController.m in Sources */,
 				211A822D20BD42BC00B44DA9 /* BaseMenuController.swift in Sources */,
+				211A823120BD5FF600B44DA9 /* OrdersViewController.swift in Sources */,
 				211A822620BD06EF00B44DA9 /* MenuViewController.swift in Sources */,
-				211A822B20BD178D00B44DA9 /* MessageViewController.swift in Sources */,
+				211A822B20BD178D00B44DA9 /* ProfileViewController.swift in Sources */,
 				211A822820BD070300B44DA9 /* MenuTableViewCell.swift in Sources */,
+				211A823320BD602700B44DA9 /* LogoutViewController.swift in Sources */,
+				211A822F20BD576000B44DA9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

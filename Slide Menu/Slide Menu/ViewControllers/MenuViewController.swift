@@ -40,7 +40,9 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        print("didtap")
+        let menuName = arrMenuName[indexPath.row]
+        
+        self.performSegue(withIdentifier: menuName, sender: self)
         
     }
     

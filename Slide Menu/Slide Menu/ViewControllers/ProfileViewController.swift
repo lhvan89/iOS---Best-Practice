@@ -8,13 +8,10 @@
 
 import UIKit
 
-class MessageViewController: BaseMenuController {
-    
-
+class ProfileViewController: BaseMenuController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-
 }
