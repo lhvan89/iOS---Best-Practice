@@ -7,26 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21001E6320BFEFA700D183BB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21001E6220BFEFA700D183BB /* GradientView.swift */; };
 		212076AA20BFD21200839D50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212076A920BFD21200839D50 /* AppDelegate.swift */; };
-		212076AC20BFD21200839D50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212076AB20BFD21200839D50 /* ViewController.swift */; };
-		212076AF20BFD21200839D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212076AD20BFD21200839D50 /* Main.storyboard */; };
+		212076AC20BFD21200839D50 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212076AB20BFD21200839D50 /* GroupsViewController.swift */; };
 		212076B120BFD21200839D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212076B020BFD21200839D50 /* Assets.xcassets */; };
-		212076B420BFD21200839D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212076B220BFD21200839D50 /* LaunchScreen.storyboard */; };
 		212076BC20BFD24600839D50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 212076BB20BFD24600839D50 /* GoogleService-Info.plist */; };
+		2166663620C00C6900F5F830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2166663520C00C6900F5F830 /* LaunchScreen.storyboard */; };
+		2166663C20C00D7F00F5F830 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2166663B20C00D7F00F5F830 /* Info.plist */; };
+		2166663F20C00EB200F5F830 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166663E20C00EB200F5F830 /* Team.swift */; };
+		2166664120C00ED600F5F830 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166664020C00ED600F5F830 /* Match.swift */; };
+		2166664320C0131E00F5F830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212076AD20BFD21200839D50 /* Main.storyboard */; };
 		E48FE0A8C885903ECB4C8A88 /* Pods_World_Cup_2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16256D9E9E5878E0A9A039E3 /* Pods_World_Cup_2018.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16256D9E9E5878E0A9A039E3 /* Pods_World_Cup_2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_World_Cup_2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16811E4BF856A7659E69094B /* Pods-World Cup 2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Cup 2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-World Cup 2018/Pods-World Cup 2018.release.xcconfig"; sourceTree = "<group>"; };
+		21001E6220BFEFA700D183BB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		212076A620BFD21200839D50 /* World Cup 2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Cup 2018.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		212076A920BFD21200839D50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		212076AB20BFD21200839D50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212076AB20BFD21200839D50 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
 		212076AE20BFD21200839D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		212076B020BFD21200839D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		212076B320BFD21200839D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		212076B520BFD21200839D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		212076BB20BFD24600839D50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2166663520C00C6900F5F830 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2166663B20C00D7F00F5F830 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2166663E20C00EB200F5F830 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		2166664020C00ED600F5F830 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		58C5E9596CA07B79EDAB79A6 /* Pods-World Cup 2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Cup 2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Cup 2018/Pods-World Cup 2018.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +58,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		21001E6620C0078900D183BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				212076AB20BFD21200839D50 /* GroupsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		21001E6720C007A300D183BB /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2166663520C00C6900F5F830 /* LaunchScreen.storyboard */,
+				2166663B20C00D7F00F5F830 /* Info.plist */,
+				212076BB20BFD24600839D50 /* GoogleService-Info.plist */,
+				212076B020BFD21200839D50 /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		21001E6820C007DF00D183BB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				212076AD20BFD21200839D50 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		2120769D20BFD21200839D50 = {
 			isa = PBXGroup;
 			children = (
@@ -72,15 +106,23 @@
 		212076A820BFD21200839D50 /* World Cup 2018 */ = {
 			isa = PBXGroup;
 			children = (
-				212076BB20BFD24600839D50 /* GoogleService-Info.plist */,
+				2166663D20C00E9E00F5F830 /* Models */,
+				21001E6720C007A300D183BB /* Supporting files */,
+				21001E6820C007DF00D183BB /* Storyboards */,
+				21001E6620C0078900D183BB /* ViewControllers */,
 				212076A920BFD21200839D50 /* AppDelegate.swift */,
-				212076AB20BFD21200839D50 /* ViewController.swift */,
-				212076AD20BFD21200839D50 /* Main.storyboard */,
-				212076B020BFD21200839D50 /* Assets.xcassets */,
-				212076B220BFD21200839D50 /* LaunchScreen.storyboard */,
-				212076B520BFD21200839D50 /* Info.plist */,
+				21001E6220BFEFA700D183BB /* GradientView.swift */,
 			);
 			path = "World Cup 2018";
+			sourceTree = "<group>";
+		};
+		2166663D20C00E9E00F5F830 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2166663E20C00EB200F5F830 /* Team.swift */,
+				2166664020C00ED600F5F830 /* Match.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		41F27BA69E243E94F885E4D0 /* Frameworks */ = {
@@ -153,10 +195,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212076B420BFD21200839D50 /* LaunchScreen.storyboard in Resources */,
+				2166664320C0131E00F5F830 /* Main.storyboard in Resources */,
+				2166663C20C00D7F00F5F830 /* Info.plist in Resources */,
+				2166663620C00C6900F5F830 /* LaunchScreen.storyboard in Resources */,
 				212076BC20BFD24600839D50 /* GoogleService-Info.plist in Resources */,
 				212076B120BFD21200839D50 /* Assets.xcassets in Resources */,
-				212076AF20BFD21200839D50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,11 +247,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-World Cup 2018/Pods-World Cup 2018-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212076AC20BFD21200839D50 /* ViewController.swift in Sources */,
+				2166663F20C00EB200F5F830 /* Team.swift in Sources */,
+				21001E6320BFEFA700D183BB /* GradientView.swift in Sources */,
+				212076AC20BFD21200839D50 /* GroupsViewController.swift in Sources */,
+				2166664120C00ED600F5F830 /* Match.swift in Sources */,
 				212076AA20BFD21200839D50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,14 +285,6 @@
 				212076AE20BFD21200839D50 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		212076B220BFD21200839D50 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				212076B320BFD21200839D50 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -364,7 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
-				INFOPLIST_FILE = "World Cup 2018/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/World Cup 2018/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.World-Cup-2018";
@@ -381,7 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
-				INFOPLIST_FILE = "World Cup 2018/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/World Cup 2018/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.World-Cup-2018";

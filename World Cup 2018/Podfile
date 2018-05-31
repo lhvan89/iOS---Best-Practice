@@ -7,5 +7,6 @@ target 'World Cup 2018' do
 
   # Pods for World Cup 2018
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
 end
