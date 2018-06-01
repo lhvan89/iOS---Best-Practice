@@ -14,15 +14,17 @@ struct Day {
     var matches: [Match]
 }
 struct Match {
-    var goalsTeam1: Int
-    var goalsTeam2: Int
+    var goalsTeamA: Int
+    var goalsTeamB: Int
     var group: String
     var tvs: String
-    var team1: String
-    var team2: String
+    var teamA: String
+    var teamB: String
 }
 
-let matches = [
-    Day(day: "14/06/2018", matches: <#T##[Match]#>)
-]
+//let matches = [
+//    Day(day: "14/06/2018", matches: [
+//        Match(goalsTeamA: <#T##Int#>, goalsTeamB: <#T##Int#>, group: <#T##String#>, tvs: <#T##String#>, teamA: <#T##String#>, teamB: <#T##String#>)
+//    ])
+//]
 
