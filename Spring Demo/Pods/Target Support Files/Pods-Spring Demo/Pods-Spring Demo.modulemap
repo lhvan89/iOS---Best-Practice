@@ -1,6 +1,0 @@
-framework module Pods_Spring_Demo {
-  umbrella header "Pods-Spring Demo-umbrella.h"
-
-  export *
-  module * { export * }
-}
