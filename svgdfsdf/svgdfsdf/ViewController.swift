@@ -8,6 +8,7 @@
 
 import UIKit
 let screenWidth = UIScreen.main.bounds.width
+let itemWidth = CGFloat(152.5)
 
 class ViewController: UIViewController {
     
@@ -23,15 +24,19 @@ class ViewController: UIViewController {
 
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 8
+        return groups.count
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CellCollectionViewCell
+        cell.initCell(group: groups[indexPath.item])
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let itemWidth = screenWidth/2 - 15
         return CGSize(width: itemWidth, height: itemWidth*(638/612))
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 10, left: (screenWidth - itemWidth * 2) / 3, bottom: 10, right: (screenWidth - itemWidth * 2) / 3)
     }
 }
 
