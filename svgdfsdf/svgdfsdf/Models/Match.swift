@@ -9,8 +9,11 @@
 import Foundation
 import UIKit
 
+struct Day {
+    var day: String
+    var matches: [Match]
+}
 struct Match {
-    var day: NSData
     var goalsTeam1: Int
     var goalsTeam2: Int
     var group: String
@@ -18,3 +21,8 @@ struct Match {
     var team1: String
     var team2: String
 }
+
+let matches = [
+    Day(day: "14/06/2018", matches: <#T##[Match]#>)
+]
+

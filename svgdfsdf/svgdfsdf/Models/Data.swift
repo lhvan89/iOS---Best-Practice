@@ -58,7 +58,3 @@ let groups = [
         Team(teamName: "Senegal", point: 0, rank: 0),
     ])
 ]
-
-let matches = [
-    Ma
-]

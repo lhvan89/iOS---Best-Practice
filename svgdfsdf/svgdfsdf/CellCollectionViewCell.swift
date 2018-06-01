@@ -19,6 +19,7 @@ class CellCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var flagTeam2: UIImageView!
     @IBOutlet weak var flagTeam3: UIImageView!
     @IBOutlet weak var flagTeam4: UIImageView!
+    @IBOutlet weak var bgCell: UIImageView!
     
     func initCell(group: Group){
         let groupName = group.groupName
