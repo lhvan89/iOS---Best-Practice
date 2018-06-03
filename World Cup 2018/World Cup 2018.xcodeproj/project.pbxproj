@@ -14,6 +14,9 @@
 		2166663620C00C6900F5F830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2166663520C00C6900F5F830 /* LaunchScreen.storyboard */; };
 		2166663C20C00D7F00F5F830 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2166663B20C00D7F00F5F830 /* Info.plist */; };
 		2166664320C0131E00F5F830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212076AD20BFD21200839D50 /* Main.storyboard */; };
+		6F110A7120C4298600DD12DD /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F110A7020C4298600DD12DD /* MatchesViewController.swift */; };
+		6F110A7320C4299C00DD12DD /* MatchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F110A7220C4299C00DD12DD /* MatchesTableViewCell.swift */; };
+		6F110A7720C4773500DD12DD /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F110A7620C4773500DD12DD /* StringHelper.swift */; };
 		6F42BCDA20C1CA3800209E8C /* DataMatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F42BCD920C1CA3800209E8C /* DataMatches.swift */; };
 		6F42BCDC20C1CAE400209E8C /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F42BCDB20C1CAE400209E8C /* Match.swift */; };
 		6F712CE920C1AB4E008DC134 /* GroupsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F712CE820C1AB4E008DC134 /* GroupsCollectionViewCell.swift */; };
@@ -39,6 +42,9 @@
 		2166663520C00C6900F5F830 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2166663B20C00D7F00F5F830 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C5E9596CA07B79EDAB79A6 /* Pods-World Cup 2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Cup 2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Cup 2018/Pods-World Cup 2018.debug.xcconfig"; sourceTree = "<group>"; };
+		6F110A7020C4298600DD12DD /* MatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
+		6F110A7220C4299C00DD12DD /* MatchesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTableViewCell.swift; sourceTree = "<group>"; };
+		6F110A7620C4773500DD12DD /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
 		6F42BCD920C1CA3800209E8C /* DataMatches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMatches.swift; sourceTree = "<group>"; };
 		6F42BCDB20C1CAE400209E8C /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		6F712CE820C1AB4E008DC134 /* GroupsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -76,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				212076AB20BFD21200839D50 /* GroupsViewController.swift */,
+				6F110A7020C4298600DD12DD /* MatchesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -123,10 +130,11 @@
 		212076A820BFD21200839D50 /* World Cup 2018 */ = {
 			isa = PBXGroup;
 			children = (
+				21001E6620C0078900D183BB /* ViewControllers */,
 				6F712CEA20C1ABF7008DC134 /* Models */,
 				6F712CE720C1A9C8008DC134 /* TableViewCell */,
 				21001E6720C007A300D183BB /* Supporting files */,
-				21001E6620C0078900D183BB /* ViewControllers */,
+				6F110A7620C4773500DD12DD /* StringHelper.swift */,
 			);
 			path = "World Cup 2018";
 			sourceTree = "<group>";
@@ -143,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				6F712CE820C1AB4E008DC134 /* GroupsCollectionViewCell.swift */,
+				6F110A7220C4299C00DD12DD /* MatchesTableViewCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -312,10 +321,13 @@
 			files = (
 				6F42BCDA20C1CA3800209E8C /* DataMatches.swift in Sources */,
 				6F712CE920C1AB4E008DC134 /* GroupsCollectionViewCell.swift in Sources */,
+				6F110A7720C4773500DD12DD /* StringHelper.swift in Sources */,
 				6F712CEC20C1AC22008DC134 /* Team.swift in Sources */,
+				6F110A7120C4298600DD12DD /* MatchesViewController.swift in Sources */,
 				6F42BCDC20C1CAE400209E8C /* Match.swift in Sources */,
 				6F712CEE20C1AC3F008DC134 /* Group.swift in Sources */,
 				212076AC20BFD21200839D50 /* GroupsViewController.swift in Sources */,
+				6F110A7320C4299C00DD12DD /* MatchesTableViewCell.swift in Sources */,
 				6F712CF020C1AC62008DC134 /* DataGroup.swift in Sources */,
 				212076AA20BFD21200839D50 /* AppDelegate.swift in Sources */,
 			);
@@ -455,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.World-Cup-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.World-Cup-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -19,7 +19,7 @@ struct Match {
     var teamB: String
     init(d:String, ga: Int, gb: Int, gr: String, tvs: String, ta: String, tb: String) {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm ZZZZ"
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm Z"
         self.date = dateFormatter.date(from: d)!
         self.goalsTeamA = ga
         self.goalsTeamB = gb
@@ -36,14 +36,21 @@ struct Schedule {
 
 let schedule = [
     Schedule(date: "2018-06-14", matches: [
-        Match(d: "2018-06-14 22:00 +0700", ga: 0, gb: 0, gr: "A", tvs: "", ta: "Russia", tb: "Saudi Arabia")
+        Match(d: "2018-06-14 22:00 +0700", ga: 0, gb: 0, gr: "A", tvs: "VTV3 & VTC1", ta: "Russia", tb: "Saudi Arabia")
     ]),
     Schedule(date: "2018-06-15", matches: [
-        Match(d: "2018-06-15 19:00 +0700", ga: 0, gb: 0, gr: "A", tvs: "", ta: "Egypt", tb: "Uruguay"),
-        Match(d: "2018-06-15 22:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "", ta: "Morocco", tb: "IR Iran")
+        Match(d: "2018-06-15 19:00 +0700", ga: 0, gb: 0, gr: "A", tvs: "VTV3 & VTC1", ta: "Egypt", tb: "Uruguay"),
+        Match(d: "2018-06-15 22:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Morocco", tb: "IR Iran")
     ]),
     Schedule(date: "2018-06-16", matches: [
-        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "", ta: "Portugal", tb: "Spain")
+        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain")
+    ]),
+    Schedule(date: "2018-06-17", matches: [
+        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain"),
+        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain"),
+        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain"),
+        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain"),
+        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain")
     ]),
 ]
 
