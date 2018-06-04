@@ -23,10 +23,10 @@
 		6F712CEC20C1AC22008DC134 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F712CEB20C1AC22008DC134 /* Team.swift */; };
 		6F712CEE20C1AC3F008DC134 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F712CED20C1AC3F008DC134 /* Group.swift */; };
 		6F712CF020C1AC62008DC134 /* DataGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F712CEF20C1AC62008DC134 /* DataGroup.swift */; };
-		6F712CF620C1AF3B008DC134 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F712CF220C1AF3B008DC134 /* OpenSans-Light.ttf */; };
-		6F712CF720C1AF3B008DC134 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F712CF320C1AF3B008DC134 /* OpenSans-Bold.ttf */; };
-		6F712CF820C1AF3B008DC134 /* Dusha V5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F712CF420C1AF3B008DC134 /* Dusha V5.ttf */; };
-		6F712CF920C1AF3B008DC134 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F712CF520C1AF3B008DC134 /* OpenSans-Regular.ttf */; };
+		6FC5D06420C57D90005B38F9 /* Dusha V5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5D06020C57D8F005B38F9 /* Dusha V5.ttf */; };
+		6FC5D06520C57D90005B38F9 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5D06120C57D8F005B38F9 /* OpenSans-Light.ttf */; };
+		6FC5D06620C57D90005B38F9 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5D06220C57D8F005B38F9 /* OpenSans-Regular.ttf */; };
+		6FC5D06720C57D90005B38F9 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5D06320C57D90005B38F9 /* OpenSans-Bold.ttf */; };
 		E48FE0A8C885903ECB4C8A88 /* Pods_World_Cup_2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16256D9E9E5878E0A9A039E3 /* Pods_World_Cup_2018.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,10 +51,10 @@
 		6F712CEB20C1AC22008DC134 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		6F712CED20C1AC3F008DC134 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		6F712CEF20C1AC62008DC134 /* DataGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGroup.swift; sourceTree = "<group>"; };
-		6F712CF220C1AF3B008DC134 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "../../../../svgdfsdf/svgdfsdf/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
-		6F712CF320C1AF3B008DC134 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../svgdfsdf/svgdfsdf/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
-		6F712CF420C1AF3B008DC134 /* Dusha V5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Dusha V5.ttf"; path = "../../../../svgdfsdf/svgdfsdf/fonts/Dusha V5.ttf"; sourceTree = "<group>"; };
-		6F712CF520C1AF3B008DC134 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../../../../svgdfsdf/svgdfsdf/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		6FC5D06020C57D8F005B38F9 /* Dusha V5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dusha V5.ttf"; sourceTree = "<group>"; };
+		6FC5D06120C57D8F005B38F9 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		6FC5D06220C57D8F005B38F9 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		6FC5D06320C57D90005B38F9 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,10 +172,10 @@
 		6F712CF120C1AF25008DC134 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				6F712CF420C1AF3B008DC134 /* Dusha V5.ttf */,
-				6F712CF320C1AF3B008DC134 /* OpenSans-Bold.ttf */,
-				6F712CF220C1AF3B008DC134 /* OpenSans-Light.ttf */,
-				6F712CF520C1AF3B008DC134 /* OpenSans-Regular.ttf */,
+				6FC5D06020C57D8F005B38F9 /* Dusha V5.ttf */,
+				6FC5D06320C57D90005B38F9 /* OpenSans-Bold.ttf */,
+				6FC5D06120C57D8F005B38F9 /* OpenSans-Light.ttf */,
+				6FC5D06220C57D8F005B38F9 /* OpenSans-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -242,14 +242,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F712CF820C1AF3B008DC134 /* Dusha V5.ttf in Resources */,
-				6F712CF620C1AF3B008DC134 /* OpenSans-Light.ttf in Resources */,
-				6F712CF720C1AF3B008DC134 /* OpenSans-Bold.ttf in Resources */,
 				2166664320C0131E00F5F830 /* Main.storyboard in Resources */,
 				2166663C20C00D7F00F5F830 /* Info.plist in Resources */,
+				6FC5D06520C57D90005B38F9 /* OpenSans-Light.ttf in Resources */,
+				6FC5D06420C57D90005B38F9 /* Dusha V5.ttf in Resources */,
 				2166663620C00C6900F5F830 /* LaunchScreen.storyboard in Resources */,
+				6FC5D06720C57D90005B38F9 /* OpenSans-Bold.ttf in Resources */,
 				212076BC20BFD24600839D50 /* GoogleService-Info.plist in Resources */,
-				6F712CF920C1AF3B008DC134 /* OpenSans-Regular.ttf in Resources */,
+				6FC5D06620C57D90005B38F9 /* OpenSans-Regular.ttf in Resources */,
 				212076B120BFD21200839D50 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
