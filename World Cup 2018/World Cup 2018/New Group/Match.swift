@@ -44,14 +44,7 @@ let schedule = [
     ]),
     Schedule(date: "2018-06-16", matches: [
         Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain")
-    ]),
-    Schedule(date: "2018-06-17", matches: [
-        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain"),
-        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain"),
-        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain"),
-        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain"),
-        Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain")
-    ]),
+    ])
 ]
 
 

@@ -16,9 +16,7 @@ class MatchesTableViewCell: UITableViewCell {
     @IBOutlet weak var teamA: UIButton!
     @IBOutlet weak var teamB: UIButton!
     @IBOutlet weak var goals: UILabel!
-    @IBOutlet weak var time: UILabel!
     
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,8 +24,6 @@ class MatchesTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     func initCell(match: Match){
@@ -35,8 +31,13 @@ class MatchesTableViewCell: UITableViewCell {
         tiviShow.text = match.tvs
         teamA.setTitle(match.teamA, for: .normal)
         teamB.setTitle(match.teamB, for: .normal)
-        goals.text = "\(match.goalsTeamA) : \(match.goalsTeamB)"
-        time.text = String.showFormatTime(date: match.date)
+//        goals.text = "\(match.goalsTeamA) : \(match.goalsTeamB)"
+        goals.text = String.showFormatTime(date: match.date)
     }
+    
+    @IBAction func notification(_ sender: Any) {
+        buttonNotification.isSelected = !buttonNotification.isSelected
+    }
+    
 
 }
