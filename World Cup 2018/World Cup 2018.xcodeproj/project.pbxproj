@@ -23,6 +23,12 @@
 		6F712CEC20C1AC22008DC134 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F712CEB20C1AC22008DC134 /* Team.swift */; };
 		6F712CEE20C1AC3F008DC134 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F712CED20C1AC3F008DC134 /* Group.swift */; };
 		6F712CF020C1AC62008DC134 /* DataGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F712CEF20C1AC62008DC134 /* DataGroup.swift */; };
+		6FA58A3220CC50FD007CCEF3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FA58A3420CC50FD007CCEF3 /* Localizable.strings */; };
+		6FA58A3920CC6A9F007CCEF3 /* MatchesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA58A3820CC6A9F007CCEF3 /* MatchesTableViewCell.xib */; };
+		6FA58A3B20CC72E8007CCEF3 /* GroupDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA58A3A20CC72E8007CCEF3 /* GroupDetailTableViewCell.swift */; };
+		6FA58A3D20CC74D2007CCEF3 /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA58A3C20CC74D2007CCEF3 /* GroupDetailViewController.swift */; };
+		6FA58A4420CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA58A4220CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.swift */; };
+		6FA58A4520CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA58A4320CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.xib */; };
 		6FC5D06420C57D90005B38F9 /* Dusha V5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5D06020C57D8F005B38F9 /* Dusha V5.ttf */; };
 		6FC5D06520C57D90005B38F9 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5D06120C57D8F005B38F9 /* OpenSans-Light.ttf */; };
 		6FC5D06620C57D90005B38F9 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5D06220C57D8F005B38F9 /* OpenSans-Regular.ttf */; };
@@ -51,6 +57,13 @@
 		6F712CEB20C1AC22008DC134 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		6F712CED20C1AC3F008DC134 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		6F712CEF20C1AC62008DC134 /* DataGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGroup.swift; sourceTree = "<group>"; };
+		6FA58A3320CC50FD007CCEF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6FA58A3520CC510F007CCEF3 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6FA58A3820CC6A9F007CCEF3 /* MatchesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchesTableViewCell.xib; sourceTree = "<group>"; };
+		6FA58A3A20CC72E8007CCEF3 /* GroupDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailTableViewCell.swift; sourceTree = "<group>"; };
+		6FA58A3C20CC74D2007CCEF3 /* GroupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailViewController.swift; sourceTree = "<group>"; };
+		6FA58A4220CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		6FA58A4320CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupDetailHeaderTableViewCell.xib; sourceTree = "<group>"; };
 		6FC5D06020C57D8F005B38F9 /* Dusha V5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dusha V5.ttf"; sourceTree = "<group>"; };
 		6FC5D06120C57D8F005B38F9 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		6FC5D06220C57D8F005B38F9 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
@@ -83,6 +96,7 @@
 			children = (
 				212076AB20BFD21200839D50 /* GroupsViewController.swift */,
 				6F110A7020C4298600DD12DD /* MatchesViewController.swift */,
+				6FA58A3C20CC74D2007CCEF3 /* GroupDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -97,6 +111,7 @@
 				2166663B20C00D7F00F5F830 /* Info.plist */,
 				212076BB20BFD24600839D50 /* GoogleService-Info.plist */,
 				212076B020BFD21200839D50 /* Assets.xcassets */,
+				6FA58A3420CC50FD007CCEF3 /* Localizable.strings */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -152,6 +167,10 @@
 			children = (
 				6F712CE820C1AB4E008DC134 /* GroupsCollectionViewCell.swift */,
 				6F110A7220C4299C00DD12DD /* MatchesTableViewCell.swift */,
+				6FA58A3820CC6A9F007CCEF3 /* MatchesTableViewCell.xib */,
+				6FA58A3A20CC72E8007CCEF3 /* GroupDetailTableViewCell.swift */,
+				6FA58A4220CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.swift */,
+				6FA58A4320CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.xib */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -192,7 +211,6 @@
 				212076A320BFD21200839D50 /* Frameworks */,
 				212076A420BFD21200839D50 /* Resources */,
 				C1E316A48E7907EEC4500799 /* [CP] Embed Pods Frameworks */,
-				3A50A93AFC21FA6B3588F5DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +244,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = 2120769D20BFD21200839D50;
 			productRefGroup = 212076A720BFD21200839D50 /* Products */;
@@ -243,10 +262,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2166664320C0131E00F5F830 /* Main.storyboard in Resources */,
+				6FA58A3920CC6A9F007CCEF3 /* MatchesTableViewCell.xib in Resources */,
 				2166663C20C00D7F00F5F830 /* Info.plist in Resources */,
 				6FC5D06520C57D90005B38F9 /* OpenSans-Light.ttf in Resources */,
 				6FC5D06420C57D90005B38F9 /* Dusha V5.ttf in Resources */,
 				2166663620C00C6900F5F830 /* LaunchScreen.storyboard in Resources */,
+				6FA58A3220CC50FD007CCEF3 /* Localizable.strings in Resources */,
+				6FA58A4520CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.xib in Resources */,
 				6FC5D06720C57D90005B38F9 /* OpenSans-Bold.ttf in Resources */,
 				212076BC20BFD24600839D50 /* GoogleService-Info.plist in Resources */,
 				6FC5D06620C57D90005B38F9 /* OpenSans-Regular.ttf in Resources */,
@@ -257,21 +279,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3A50A93AFC21FA6B3588F5DD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-World Cup 2018/Pods-World Cup 2018-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		48D7464AD60F606BA45DB098 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,12 +305,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-World Cup 2018/Pods-World Cup 2018-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -319,9 +328,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA58A3B20CC72E8007CCEF3 /* GroupDetailTableViewCell.swift in Sources */,
 				6F42BCDA20C1CA3800209E8C /* DataMatches.swift in Sources */,
 				6F712CE920C1AB4E008DC134 /* GroupsCollectionViewCell.swift in Sources */,
+				6FA58A4420CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.swift in Sources */,
 				6F110A7720C4773500DD12DD /* StringHelper.swift in Sources */,
+				6FA58A3D20CC74D2007CCEF3 /* GroupDetailViewController.swift in Sources */,
 				6F712CEC20C1AC22008DC134 /* Team.swift in Sources */,
 				6F110A7120C4298600DD12DD /* MatchesViewController.swift in Sources */,
 				6F42BCDC20C1CAE400209E8C /* Match.swift in Sources */,
@@ -344,6 +356,15 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		6FA58A3420CC50FD007CCEF3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA58A3320CC50FD007CCEF3 /* en */,
+				6FA58A3520CC510F007CCEF3 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -351,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -408,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -462,7 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "$(SRCROOT)/World Cup 2018/Supporting files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.World-Cup-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,7 +502,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "$(SRCROOT)/World Cup 2018/Supporting files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.World-Cup-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";

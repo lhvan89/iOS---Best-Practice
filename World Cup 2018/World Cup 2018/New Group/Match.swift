@@ -34,7 +34,7 @@ struct Schedule {
     var matches: [Match]
 }
 
-let schedule = [
+let scheduleAll = [
     Schedule(date: "2018-06-14", matches: [
         Match(d: "2018-06-14 22:00 +0700", ga: 0, gb: 0, gr: "A", tvs: "VTV3 & VTC1", ta: "Russia", tb: "Saudi Arabia")
     ]),
@@ -44,6 +44,18 @@ let schedule = [
     ]),
     Schedule(date: "2018-06-16", matches: [
         Match(d: "2018-06-16 01:00 +0700", ga: 0, gb: 0, gr: "B", tvs: "VTV3 & VTC1", ta: "Portugal", tb: "Spain")
+    ])
+]
+
+let scheduleTeam = [
+    Schedule(date: "2018-06-14", matches: [
+        Match(d: "2018-06-14 22:00 +0700", ga: 0, gb: 0, gr: "A", tvs: "VTV3 & VTC1", ta: "Russia", tb: "Saudi Arabia")
+    ]),
+    Schedule(date: "2018-06-20", matches: [
+        Match(d: "2018-06-20 1:00 +0700", ga: 0, gb: 0, gr: "A", tvs: "VTV3 & VTC1", ta: "Russia", tb: "Egypt")
+    ]),
+    Schedule(date: "2018-06-25", matches: [
+        Match(d: "2018-06-25 21:00 +0700", ga: 0, gb: 0, gr: "A", tvs: "VTV3 & VTC1", ta: "Russia", tb: "Uruguay")
     ])
 ]
 

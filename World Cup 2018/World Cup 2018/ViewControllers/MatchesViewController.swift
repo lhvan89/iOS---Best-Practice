@@ -15,27 +15,31 @@ class MatchesViewController: UIViewController {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
+        
+        self.title = "Matches".localized()
+        
+        let nibName = UINib(nibName: "MatchesTableViewCell", bundle: nil)
+        tableView.register(nibName, forCellReuseIdentifier: "MatchesTableViewCell")
     }
-    
-    
+
 }
 
 extension MatchesViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return schedule.count
+        return scheduleAll.count
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return schedule[section].matches.count
+        return scheduleAll[section].matches.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MatchesTableViewCell") as!  MatchesTableViewCell
-        cell.initCell(match: schedule[indexPath.section].matches[indexPath.row])
+        cell.initCell(match: scheduleAll[indexPath.section].matches[indexPath.row])
         return cell
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return schedule[section].date
+        return scheduleAll[section].date
     }
     
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {

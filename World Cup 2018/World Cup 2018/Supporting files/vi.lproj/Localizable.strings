@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  World Cup 2018
+
+  Created by lhvan on 6/10/18.
+  Copyright © 2018 Van. All rights reserved.
+*/
+"GROUP" = "BẢNG";
+"GROUPS" = "BẢNG";
+"Matches" = "Lịch thi đấu";
+
+"Egypt" = "Ai Cập";
+"Russia" = "Nga";
+"Saudi Arabia" = "Ả Rập Saudi";
+"IR Iran" = "Iran";
+"Portugal" = "Bồ Đào Nha";
+"Spain" = "Tây Ban Nha";
+"Denmark" = "Đan Mạch";
+"France" = "Pháp";
+"Switzerland" = "Thuỵ Sỹ";
+"Germany" = "Đức";
+"Korea Republic" = "Hàn Quốc";
+"Sweden" = "Thuỵ Điển";
+"Belgium" = "Bỉ";
+"England" = "Anh";
+"Japan" = "Nhật Bản";
+"Poland" = "Ba Lan";
+
+//Senegal
+//Uruguay
+//Morocco
+//Australia
+//Peru
+//Argentina
+//Croatia
+//Iceland
+//Nigeria
+//Brazil
+//Costa Rica
+//Serbia
+//Mexico
+//Panama
+//Tunisia
+//Colombia

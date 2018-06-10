@@ -22,6 +22,8 @@ class GroupsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "GROUPS".localized()
+        
         collectionView.delegate = self
         collectionView.dataSource = self
     }
