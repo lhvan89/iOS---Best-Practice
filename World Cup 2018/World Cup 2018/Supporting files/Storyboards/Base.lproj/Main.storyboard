@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EnU-eA-drZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EnU-eA-drZ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -21,7 +21,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--GROUPS-->
+        <!-- -->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="GroupsViewController" customModule="World_Cup_2018" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="H0Z-0h-CvO">
-                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="15" minimumInteritemSpacing="0.0" id="vwb-sk-mmO">
                                     <size key="itemSize" width="152" height="191"/>
@@ -56,19 +56,19 @@
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-1" translatesAutoresizingMaskIntoConstraints="NO" id="d1o-Wy-YJm">
-                                                    <rect key="frame" x="25.5" y="61" width="121" height="69"/>
+                                                    <rect key="frame" x="25.5" y="59" width="121" height="73"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zrp-kl-UVj">
-                                                            <rect key="frame" x="0.0" y="0.0" width="121" height="18"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="121" height="19"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Argentina" translatesAutoresizingMaskIntoConstraints="NO" id="75b-j6-NI5">
-                                                                    <rect key="frame" x="0.5" y="4.5" width="17.5" height="8.5"/>
+                                                                    <rect key="frame" x="0.5" y="5" width="17" height="8.5"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" secondItem="75b-j6-NI5" secondAttribute="height" multiplier="150:74" id="yiS-rt-9Bm"/>
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Russia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UG1-kl-FQQ">
-                                                                    <rect key="frame" x="23" y="0.5" width="98" height="18"/>
+                                                                    <rect key="frame" x="22.5" y="1" width="98.5" height="18"/>
                                                                     <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="13"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -84,13 +84,13 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kdA-4Q-qFi">
-                                                            <rect key="frame" x="0.0" y="17" width="121" height="18"/>
+                                                            <rect key="frame" x="0.0" y="18" width="121" height="19"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Australia" translatesAutoresizingMaskIntoConstraints="NO" id="9rN-be-0gl">
-                                                                    <rect key="frame" x="0.5" y="4.5" width="17.5" height="9"/>
+                                                                    <rect key="frame" x="0.5" y="5" width="17" height="9"/>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Saudi Arabia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGS-qH-Ria">
-                                                                    <rect key="frame" x="23" y="0.0" width="98" height="18"/>
+                                                                    <rect key="frame" x="22.5" y="0.5" width="98.5" height="18"/>
                                                                     <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="13"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -105,13 +105,13 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FEN-xc-VL1">
-                                                            <rect key="frame" x="0.0" y="34" width="121" height="18"/>
+                                                            <rect key="frame" x="0.0" y="36" width="121" height="19"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Belgium" translatesAutoresizingMaskIntoConstraints="NO" id="ViB-xA-kTQ">
-                                                                    <rect key="frame" x="0.5" y="4.5" width="17.5" height="9"/>
+                                                                    <rect key="frame" x="0.5" y="5" width="17" height="9"/>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Egypt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwz-gW-57a">
-                                                                    <rect key="frame" x="23" y="0.0" width="98" height="18"/>
+                                                                    <rect key="frame" x="22.5" y="0.5" width="98.5" height="18"/>
                                                                     <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="13"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -126,13 +126,13 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cl8-zb-Cdm">
-                                                            <rect key="frame" x="0.0" y="51" width="121" height="18"/>
+                                                            <rect key="frame" x="0.0" y="54" width="121" height="19"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Brazil" translatesAutoresizingMaskIntoConstraints="NO" id="UEI-9T-0ha">
-                                                                    <rect key="frame" x="0.5" y="5" width="17.5" height="8.5"/>
+                                                                    <rect key="frame" x="0.5" y="5.5" width="17" height="9"/>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. Uruguay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5su-cz-xtI">
-                                                                    <rect key="frame" x="23" y="0.5" width="98" height="18"/>
+                                                                    <rect key="frame" x="22.5" y="1" width="98.5" height="18"/>
                                                                     <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="13"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -160,16 +160,16 @@
                                                     </constraints>
                                                 </stackView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Qf-5z-aXZ">
-                                                    <rect key="frame" x="8" y="16.5" width="136" height="37.5"/>
+                                                    <rect key="frame" x="8" y="16.5" width="136" height="38"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="ijY-mW-24B">
-                                                            <rect key="frame" x="41" y="32" width="54" height="6"/>
+                                                            <rect key="frame" x="41" y="32.5" width="54" height="6"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="ijY-mW-24B" secondAttribute="height" multiplier="612:69.25" id="c03-53-EfL"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GROUP A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBt-AB-ACu">
-                                                            <rect key="frame" x="39" y="16.5" width="59" height="15.5"/>
+                                                            <rect key="frame" x="39" y="17" width="59" height="15.5"/>
                                                             <fontDescription key="fontDescription" name="DushaV5-Regular" family="Dusha V5" pointSize="14"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -211,7 +211,7 @@
                                             <outlet property="teamName2" destination="dGS-qH-Ria" id="ZMj-cb-s93"/>
                                             <outlet property="teamName3" destination="bwz-gW-57a" id="eOk-72-kAj"/>
                                             <outlet property="teamName4" destination="5su-cz-xtI" id="hcO-2r-Eh3"/>
-                                            <segue destination="lcq-dG-v4H" kind="show" id="M1D-SJ-3dE"/>
+                                            <segue destination="lcq-dG-v4H" kind="show" id="hK5-o4-fF0"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -230,20 +230,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="GROUPS" id="aaZ-9B-QAG">
-                        <barButtonItem key="leftBarButtonItem" image="icon-help" id="0qp-8i-InC">
-                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title=" " id="aaZ-9B-QAG"/>
                     <connections>
                         <outlet property="collectionView" destination="H0Z-0h-CvO" id="sXM-u1-U5u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1940" y="-340"/>
+            <point key="canvasLocation" x="1940" y="-340.47976011994007"/>
         </scene>
-        <!--Group Detail View Controller-->
+        <!--GROUPS-->
         <scene sceneID="ZHJ-YF-kXP">
             <objects>
                 <viewController storyboardIdentifier="GroupDetailViewController" id="lcq-dG-v4H" customClass="GroupDetailViewController" customModule="World_Cup_2018" customModuleProvider="target" sceneMemberID="viewController">
@@ -255,10 +251,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0aH-X0-RBI">
-                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GroupDetailTableViewCell" rowHeight="90" id="Xdi-zm-aZC" customClass="GroupDetailTableViewCell" customModule="World_Cup_2018" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="GroupDetailTableViewCell" rowHeight="90" id="Xdi-zm-aZC" customClass="GroupDetailTableViewCell" customModule="World_Cup_2018" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xdi-zm-aZC" id="qvN-aj-tbH">
@@ -310,7 +306,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0-0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1E-t7-tvc">
                                                     <rect key="frame" x="305" y="13" width="35" height="19.5"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="35" id="4Tu-c0-1aE"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="4Tu-c0-1aE"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -368,6 +364,7 @@
                                             <outlet property="flag" destination="eC8-eb-Aic" id="Nhe-Gr-7b5"/>
                                             <outlet property="goalDifference" destination="b1E-t7-tvc" id="nMr-Rh-JuI"/>
                                             <outlet property="teamName" destination="rtE-aB-kdh" id="B27-Sd-FJT"/>
+                                            <segue destination="Mro-mK-Q4b" kind="show" id="hrS-3i-h2c"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -386,13 +383,52 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dMw-3M-lif"/>
                     </view>
+                    <navigationItem key="navigationItem" title="GROUPS" id="h7o-g1-Jje"/>
                     <connections>
                         <outlet property="tableView" destination="0aH-X0-RBI" id="sYG-UO-iyg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Cg-gh-mFr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2813.5999999999999" y="-354.87256371814095"/>
+            <point key="canvasLocation" x="2817" y="-340"/>
+        </scene>
+        <!--Russia-->
+        <scene sceneID="OUR-Co-nUM">
+            <objects>
+                <viewController storyboardIdentifier="TeamMatchesViewController" id="Mro-mK-Q4b" customClass="TeamMatchesViewController" customModule="World_Cup_2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pko-JK-2Ru">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="2xX-JH-fcN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UKE-I8-EqX">
+                                <rect key="frame" x="16" y="64" width="343" height="554"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="C83-Pa-WL9" firstAttribute="trailing" secondItem="2xX-JH-fcN" secondAttribute="trailing" id="5q7-67-VNR"/>
+                            <constraint firstItem="C83-Pa-WL9" firstAttribute="bottom" secondItem="UKE-I8-EqX" secondAttribute="bottom" id="9m5-cZ-eEl"/>
+                            <constraint firstItem="UKE-I8-EqX" firstAttribute="top" secondItem="C83-Pa-WL9" secondAttribute="top" id="GuK-gQ-dBY"/>
+                            <constraint firstItem="C83-Pa-WL9" firstAttribute="trailing" secondItem="UKE-I8-EqX" secondAttribute="trailing" constant="16" id="JPO-dD-ah6"/>
+                            <constraint firstItem="2xX-JH-fcN" firstAttribute="top" secondItem="Pko-JK-2Ru" secondAttribute="top" id="JV6-kt-82Z"/>
+                            <constraint firstItem="2xX-JH-fcN" firstAttribute="leading" secondItem="C83-Pa-WL9" secondAttribute="leading" id="MSZ-Xd-0d5"/>
+                            <constraint firstItem="C83-Pa-WL9" firstAttribute="bottom" secondItem="2xX-JH-fcN" secondAttribute="bottom" id="c5X-WV-Nav"/>
+                            <constraint firstItem="UKE-I8-EqX" firstAttribute="leading" secondItem="C83-Pa-WL9" secondAttribute="leading" constant="16" id="kYy-wH-RR1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="C83-Pa-WL9"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Russia" id="CoM-dG-I36"/>
+                    <connections>
+                        <outlet property="tableView" destination="UKE-I8-EqX" id="gzg-W0-8dk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Igd-gB-pe6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3798" y="-340"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ea6-jV-cdT">
@@ -454,30 +490,17 @@
             </objects>
             <point key="canvasLocation" x="2332" y="419.64017991004499"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="tUn-h9-Vr6">
-            <objects>
-                <viewController id="nv2-Ob-ic2" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lq6-bi-hpg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="x8Y-dn-auN"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eW0-Bv-XOl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3172" y="406.14692653673166"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ow0-Ms-GhO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="2mc-B2-ZPk" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2mc-B2-ZPk" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="icon-groups" id="6G1-i5-vBz"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M15-hP-fDO">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
@@ -507,21 +530,102 @@
             </objects>
             <point key="canvasLocation" x="1993" y="-1123"/>
         </scene>
-        <!--View Controller-->
+        <!--Team View Controller-->
         <scene sceneID="Kn1-V5-auK">
             <objects>
-                <viewController id="VJi-o6-VdW" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TeamViewController" id="VJi-o6-VdW" customClass="TeamViewController" customModule="World_Cup_2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P0i-e6-GDI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="9kg-lE-Dnd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lM9-Ze-4Iy">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="15" minimumInteritemSpacing="10" id="aao-MS-5Yh">
+                                    <size key="itemSize" width="153" height="168.27000000000001"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TeamCollectionViewCell" id="LZa-4V-anU" customClass="TeamCollectionViewCell" customModule="World_Cup_2018" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="153" height="168.27000000000001"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="153" height="168.27000000000001"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-Argentina" translatesAutoresizingMaskIntoConstraints="NO" id="RzT-Yj-AN8">
+                                                    <rect key="frame" x="0.0" y="0.0" width="152.5" height="168"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="RzT-Yj-AN8" secondAttribute="height" multiplier="290:320" id="QfC-lc-AT8"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner-Argentina" translatesAutoresizingMaskIntoConstraints="NO" id="VGy-49-2kv">
+                                                    <rect key="frame" x="2.5" y="3" width="147.5" height="82"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Argentina" translatesAutoresizingMaskIntoConstraints="NO" id="Ql9-qp-QSH">
+                                                    <rect key="frame" x="38.5" y="65.5" width="76.5" height="37.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Ql9-qp-QSH" secondAttribute="height" multiplier="500:248" id="Xef-Zc-l3r"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARGENTINA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWt-Ph-Whk">
+                                                    <rect key="frame" x="25.5" y="113" width="102" height="21"/>
+                                                    <fontDescription key="fontDescription" name="DushaV5-Regular" family="Dusha V5" pointSize="19"/>
+                                                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="mWt-Ph-Whk" firstAttribute="top" secondItem="Ql9-qp-QSH" secondAttribute="bottom" constant="10" id="9zv-Pt-aeY"/>
+                                            <constraint firstItem="VGy-49-2kv" firstAttribute="top" secondItem="LZa-4V-anU" secondAttribute="top" constant="3" id="AtU-In-zf6"/>
+                                            <constraint firstItem="VGy-49-2kv" firstAttribute="centerX" secondItem="LZa-4V-anU" secondAttribute="centerX" id="PT4-lf-rft"/>
+                                            <constraint firstItem="Ql9-qp-QSH" firstAttribute="width" secondItem="RzT-Yj-AN8" secondAttribute="width" multiplier="0.5" id="Qta-zX-ndZ"/>
+                                            <constraint firstItem="mWt-Ph-Whk" firstAttribute="centerX" secondItem="RzT-Yj-AN8" secondAttribute="centerX" id="Td2-Jr-ODe"/>
+                                            <constraint firstAttribute="trailing" secondItem="RzT-Yj-AN8" secondAttribute="trailing" id="Zfx-wM-aR3"/>
+                                            <constraint firstItem="VGy-49-2kv" firstAttribute="width" secondItem="RzT-Yj-AN8" secondAttribute="width" multiplier="0.97" id="a5H-i8-TkV"/>
+                                            <constraint firstItem="Ql9-qp-QSH" firstAttribute="centerY" secondItem="RzT-Yj-AN8" secondAttribute="centerY" id="bA8-k4-xKe"/>
+                                            <constraint firstItem="Ql9-qp-QSH" firstAttribute="centerX" secondItem="RzT-Yj-AN8" secondAttribute="centerX" id="cPJ-Kj-AwN"/>
+                                            <constraint firstItem="VGy-49-2kv" firstAttribute="height" secondItem="RzT-Yj-AN8" secondAttribute="height" multiplier="0.487" id="d4q-Gv-8wr"/>
+                                            <constraint firstItem="RzT-Yj-AN8" firstAttribute="leading" secondItem="LZa-4V-anU" secondAttribute="leading" id="fbV-xX-q0S"/>
+                                            <constraint firstItem="RzT-Yj-AN8" firstAttribute="top" secondItem="LZa-4V-anU" secondAttribute="top" id="sBT-kJ-DTd"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="bannerTeam" destination="VGy-49-2kv" id="DoJ-hM-s84"/>
+                                            <outlet property="bgTeam" destination="RzT-Yj-AN8" id="BwL-za-lg2"/>
+                                            <outlet property="flagTeam" destination="Ql9-qp-QSH" id="SIX-za-3d1"/>
+                                            <outlet property="teamName" destination="mWt-Ph-Whk" id="d8z-6T-f8t"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v8m-GI-EdZ" firstAttribute="trailing" secondItem="lM9-Ze-4Iy" secondAttribute="trailing" id="03R-ow-qcU"/>
+                            <constraint firstAttribute="bottom" secondItem="9kg-lE-Dnd" secondAttribute="bottom" id="0ht-Y3-AxJ"/>
+                            <constraint firstItem="9kg-lE-Dnd" firstAttribute="leading" secondItem="v8m-GI-EdZ" secondAttribute="leading" id="1tF-ir-Obd"/>
+                            <constraint firstItem="lM9-Ze-4Iy" firstAttribute="top" secondItem="v8m-GI-EdZ" secondAttribute="top" id="IeZ-24-5Ed"/>
+                            <constraint firstItem="v8m-GI-EdZ" firstAttribute="trailing" secondItem="9kg-lE-Dnd" secondAttribute="trailing" id="KjV-XQ-rD1"/>
+                            <constraint firstItem="lM9-Ze-4Iy" firstAttribute="leading" secondItem="v8m-GI-EdZ" secondAttribute="leading" id="mff-AU-QHP"/>
+                            <constraint firstItem="9kg-lE-Dnd" firstAttribute="top" secondItem="P0i-e6-GDI" secondAttribute="top" id="ncM-34-qo8"/>
+                            <constraint firstItem="v8m-GI-EdZ" firstAttribute="bottom" secondItem="lM9-Ze-4Iy" secondAttribute="bottom" id="z4d-ZN-jgB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="v8m-GI-EdZ"/>
                     </view>
                     <navigationItem key="navigationItem" id="xWu-ue-JZU"/>
+                    <connections>
+                        <outlet property="collectionView" destination="lM9-Ze-4Iy" id="px0-Bd-em9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Anx-Lv-w5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2332" y="1173"/>
+            <point key="canvasLocation" x="2332" y="1172.5637181409297"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lbq-ew-wvn">
@@ -568,11 +672,10 @@
         <!--Navigation Controller-->
         <scene sceneID="F5L-Da-pD0">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vLD-ik-0jA" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="vLD-ik-0jA" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="featured" id="7X6-oP-T8m"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rn6-Db-3ji">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -588,12 +691,13 @@
     <resources>
         <image name="Argentina" width="500" height="248"/>
         <image name="Australia" width="500" height="248"/>
+        <image name="Banner-Argentina" width="768" height="432"/>
         <image name="Belgium" width="500" height="248"/>
         <image name="Brazil" width="500" height="248"/>
         <image name="background" width="459" height="479"/>
+        <image name="bg-Argentina" width="290" height="320"/>
         <image name="bg_darkblue" width="414" height="736"/>
         <image name="icon-groups" width="25" height="25"/>
-        <image name="icon-help" width="24" height="24"/>
         <image name="icon-matches" width="36" height="25"/>
         <image name="line" width="459" height="52"/>
     </resources>

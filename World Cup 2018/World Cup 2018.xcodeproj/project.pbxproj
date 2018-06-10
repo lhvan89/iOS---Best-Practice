@@ -12,11 +12,12 @@
 		212076B120BFD21200839D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212076B020BFD21200839D50 /* Assets.xcassets */; };
 		212076BC20BFD24600839D50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 212076BB20BFD24600839D50 /* GoogleService-Info.plist */; };
 		2166663620C00C6900F5F830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2166663520C00C6900F5F830 /* LaunchScreen.storyboard */; };
-		2166663C20C00D7F00F5F830 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2166663B20C00D7F00F5F830 /* Info.plist */; };
 		2166664320C0131E00F5F830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212076AD20BFD21200839D50 /* Main.storyboard */; };
 		6F110A7120C4298600DD12DD /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F110A7020C4298600DD12DD /* MatchesViewController.swift */; };
 		6F110A7320C4299C00DD12DD /* MatchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F110A7220C4299C00DD12DD /* MatchesTableViewCell.swift */; };
 		6F110A7720C4773500DD12DD /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F110A7620C4773500DD12DD /* StringHelper.swift */; };
+		6F1EAA2320CDA9E900A4DD14 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EAA2220CDA9E900A4DD14 /* TeamViewController.swift */; };
+		6F1EAA2520CDAA0800A4DD14 /* TeamCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EAA2420CDAA0800A4DD14 /* TeamCollectionViewCell.swift */; };
 		6F42BCDA20C1CA3800209E8C /* DataMatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F42BCD920C1CA3800209E8C /* DataMatches.swift */; };
 		6F42BCDC20C1CAE400209E8C /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F42BCDB20C1CAE400209E8C /* Match.swift */; };
 		6F712CE920C1AB4E008DC134 /* GroupsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F712CE820C1AB4E008DC134 /* GroupsCollectionViewCell.swift */; };
@@ -29,6 +30,9 @@
 		6FA58A3D20CC74D2007CCEF3 /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA58A3C20CC74D2007CCEF3 /* GroupDetailViewController.swift */; };
 		6FA58A4420CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA58A4220CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.swift */; };
 		6FA58A4520CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA58A4320CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.xib */; };
+		6FAF0C1120CD897C004445F3 /* TeamMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF0C1020CD897C004445F3 /* TeamMatchesViewController.swift */; };
+		6FAF0C1420CD8C6C004445F3 /* MatchesHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAF0C1220CD8C6C004445F3 /* MatchesHeaderTableViewCell.swift */; };
+		6FAF0C1520CD8C6C004445F3 /* MatchesHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FAF0C1320CD8C6C004445F3 /* MatchesHeaderTableViewCell.xib */; };
 		6FC5D06420C57D90005B38F9 /* Dusha V5.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5D06020C57D8F005B38F9 /* Dusha V5.ttf */; };
 		6FC5D06520C57D90005B38F9 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5D06120C57D8F005B38F9 /* OpenSans-Light.ttf */; };
 		6FC5D06620C57D90005B38F9 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5D06220C57D8F005B38F9 /* OpenSans-Regular.ttf */; };
@@ -51,6 +55,8 @@
 		6F110A7020C4298600DD12DD /* MatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
 		6F110A7220C4299C00DD12DD /* MatchesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTableViewCell.swift; sourceTree = "<group>"; };
 		6F110A7620C4773500DD12DD /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		6F1EAA2220CDA9E900A4DD14 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		6F1EAA2420CDAA0800A4DD14 /* TeamCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCollectionViewCell.swift; sourceTree = "<group>"; };
 		6F42BCD920C1CA3800209E8C /* DataMatches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMatches.swift; sourceTree = "<group>"; };
 		6F42BCDB20C1CAE400209E8C /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		6F712CE820C1AB4E008DC134 /* GroupsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -64,6 +70,9 @@
 		6FA58A3C20CC74D2007CCEF3 /* GroupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailViewController.swift; sourceTree = "<group>"; };
 		6FA58A4220CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		6FA58A4320CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupDetailHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		6FAF0C1020CD897C004445F3 /* TeamMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMatchesViewController.swift; sourceTree = "<group>"; };
+		6FAF0C1220CD8C6C004445F3 /* MatchesHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		6FAF0C1320CD8C6C004445F3 /* MatchesHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchesHeaderTableViewCell.xib; sourceTree = "<group>"; };
 		6FC5D06020C57D8F005B38F9 /* Dusha V5.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dusha V5.ttf"; sourceTree = "<group>"; };
 		6FC5D06120C57D8F005B38F9 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		6FC5D06220C57D8F005B38F9 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
@@ -97,6 +106,8 @@
 				212076AB20BFD21200839D50 /* GroupsViewController.swift */,
 				6F110A7020C4298600DD12DD /* MatchesViewController.swift */,
 				6FA58A3C20CC74D2007CCEF3 /* GroupDetailViewController.swift */,
+				6FAF0C1020CD897C004445F3 /* TeamMatchesViewController.swift */,
+				6F1EAA2220CDA9E900A4DD14 /* TeamViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -171,6 +182,9 @@
 				6FA58A3A20CC72E8007CCEF3 /* GroupDetailTableViewCell.swift */,
 				6FA58A4220CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.swift */,
 				6FA58A4320CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.xib */,
+				6FAF0C1220CD8C6C004445F3 /* MatchesHeaderTableViewCell.swift */,
+				6FAF0C1320CD8C6C004445F3 /* MatchesHeaderTableViewCell.xib */,
+				6F1EAA2420CDAA0800A4DD14 /* TeamCollectionViewCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -228,7 +242,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Van;
 				TargetAttributes = {
 					212076A520BFD21200839D50 = {
@@ -263,9 +277,9 @@
 			files = (
 				2166664320C0131E00F5F830 /* Main.storyboard in Resources */,
 				6FA58A3920CC6A9F007CCEF3 /* MatchesTableViewCell.xib in Resources */,
-				2166663C20C00D7F00F5F830 /* Info.plist in Resources */,
 				6FC5D06520C57D90005B38F9 /* OpenSans-Light.ttf in Resources */,
 				6FC5D06420C57D90005B38F9 /* Dusha V5.ttf in Resources */,
+				6FAF0C1520CD8C6C004445F3 /* MatchesHeaderTableViewCell.xib in Resources */,
 				2166663620C00C6900F5F830 /* LaunchScreen.storyboard in Resources */,
 				6FA58A3220CC50FD007CCEF3 /* Localizable.strings in Resources */,
 				6FA58A4520CC814B007CCEF3 /* GroupDetailHeaderTableViewCell.xib in Resources */,
@@ -328,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1EAA2320CDA9E900A4DD14 /* TeamViewController.swift in Sources */,
 				6FA58A3B20CC72E8007CCEF3 /* GroupDetailTableViewCell.swift in Sources */,
 				6F42BCDA20C1CA3800209E8C /* DataMatches.swift in Sources */,
 				6F712CE920C1AB4E008DC134 /* GroupsCollectionViewCell.swift in Sources */,
@@ -336,12 +351,15 @@
 				6FA58A3D20CC74D2007CCEF3 /* GroupDetailViewController.swift in Sources */,
 				6F712CEC20C1AC22008DC134 /* Team.swift in Sources */,
 				6F110A7120C4298600DD12DD /* MatchesViewController.swift in Sources */,
+				6F1EAA2520CDAA0800A4DD14 /* TeamCollectionViewCell.swift in Sources */,
+				6FAF0C1420CD8C6C004445F3 /* MatchesHeaderTableViewCell.swift in Sources */,
 				6F42BCDC20C1CAE400209E8C /* Match.swift in Sources */,
 				6F712CEE20C1AC3F008DC134 /* Group.swift in Sources */,
 				212076AC20BFD21200839D50 /* GroupsViewController.swift in Sources */,
 				6F110A7320C4299C00DD12DD /* MatchesTableViewCell.swift in Sources */,
 				6F712CF020C1AC62008DC134 /* DataGroup.swift in Sources */,
 				212076AA20BFD21200839D50 /* AppDelegate.swift in Sources */,
+				6FAF0C1120CD897C004445F3 /* TeamMatchesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +401,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -390,6 +409,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -417,7 +437,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -441,6 +461,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -448,6 +469,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -469,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -485,7 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "$(SRCROOT)/World Cup 2018/Supporting files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.World-Cup-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,7 +524,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = "$(SRCROOT)/World Cup 2018/Supporting files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.World-Cup-2018";
 				PRODUCT_NAME = "$(TARGET_NAME)";
