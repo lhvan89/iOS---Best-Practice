@@ -29,7 +29,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="P7a-dc-j1e">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="P7a-dc-j1e">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="H0Z-0h-CvO">
@@ -247,7 +247,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="Hhl-Ui-09q">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="Hhl-Ui-09q">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0aH-X0-RBI">
@@ -400,8 +400,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="2xX-JH-fcN">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="2xX-JH-fcN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UKE-I8-EqX">
                                 <rect key="frame" x="16" y="64" width="343" height="554"/>
@@ -416,7 +416,7 @@
                             <constraint firstItem="C83-Pa-WL9" firstAttribute="trailing" secondItem="UKE-I8-EqX" secondAttribute="trailing" constant="16" id="JPO-dD-ah6"/>
                             <constraint firstItem="2xX-JH-fcN" firstAttribute="top" secondItem="Pko-JK-2Ru" secondAttribute="top" id="JV6-kt-82Z"/>
                             <constraint firstItem="2xX-JH-fcN" firstAttribute="leading" secondItem="C83-Pa-WL9" secondAttribute="leading" id="MSZ-Xd-0d5"/>
-                            <constraint firstItem="C83-Pa-WL9" firstAttribute="bottom" secondItem="2xX-JH-fcN" secondAttribute="bottom" id="c5X-WV-Nav"/>
+                            <constraint firstAttribute="bottom" secondItem="2xX-JH-fcN" secondAttribute="bottom" id="dkL-Qk-QGw"/>
                             <constraint firstItem="UKE-I8-EqX" firstAttribute="leading" secondItem="C83-Pa-WL9" secondAttribute="leading" constant="16" id="kYy-wH-RR1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="C83-Pa-WL9"/>
@@ -460,7 +460,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="P1V-EP-iHM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="P1V-EP-iHM">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ftE-Ec-ehl">
@@ -538,7 +538,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="9kg-lE-Dnd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_darkblue" translatesAutoresizingMaskIntoConstraints="NO" id="9kg-lE-Dnd">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lM9-Ze-4Iy">
@@ -565,7 +565,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Banner-Argentina" translatesAutoresizingMaskIntoConstraints="NO" id="VGy-49-2kv">
-                                                    <rect key="frame" x="2.5" y="3" width="147.5" height="82"/>
+                                                    <rect key="frame" x="2.5" y="2" width="147.5" height="82"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Argentina" translatesAutoresizingMaskIntoConstraints="NO" id="Ql9-qp-QSH">
                                                     <rect key="frame" x="38.5" y="65.5" width="76.5" height="37.5"/>
@@ -583,7 +583,7 @@
                                         </view>
                                         <constraints>
                                             <constraint firstItem="mWt-Ph-Whk" firstAttribute="top" secondItem="Ql9-qp-QSH" secondAttribute="bottom" constant="10" id="9zv-Pt-aeY"/>
-                                            <constraint firstItem="VGy-49-2kv" firstAttribute="top" secondItem="LZa-4V-anU" secondAttribute="top" constant="3" id="AtU-In-zf6"/>
+                                            <constraint firstItem="VGy-49-2kv" firstAttribute="top" secondItem="LZa-4V-anU" secondAttribute="top" constant="2" id="AtU-In-zf6"/>
                                             <constraint firstItem="VGy-49-2kv" firstAttribute="centerX" secondItem="LZa-4V-anU" secondAttribute="centerX" id="PT4-lf-rft"/>
                                             <constraint firstItem="Ql9-qp-QSH" firstAttribute="width" secondItem="RzT-Yj-AN8" secondAttribute="width" multiplier="0.5" id="Qta-zX-ndZ"/>
                                             <constraint firstItem="mWt-Ph-Whk" firstAttribute="centerX" secondItem="RzT-Yj-AN8" secondAttribute="centerX" id="Td2-Jr-ODe"/>

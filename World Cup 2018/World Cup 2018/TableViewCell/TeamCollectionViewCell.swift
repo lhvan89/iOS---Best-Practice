@@ -16,7 +16,7 @@ class TeamCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var teamName: UILabel!
     
     func initCell(teamName: String) {
-//        bgTeam.image = UIImage(named: "bg-\(teamName)")
+        bgTeam.image = UIImage(named: "bg-\(teamName)")
         bannerTeam.image = UIImage(named: "Banner-\(teamName)")
         flagTeam.image = UIImage(named: teamName)
         self.teamName.text = teamName.localized()
