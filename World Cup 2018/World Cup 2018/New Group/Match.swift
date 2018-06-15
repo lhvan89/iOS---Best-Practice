@@ -36,7 +36,7 @@ struct Schedule {
 
 let scheduleAll = [
     Schedule(date: "2018-06-14", matches: [
-        Match(d: "2018-06-14 22:00 +0700", ga: 0, gb: 0, gr: "A", tvs: "VTV3 & VTC1", ta: "Russia", tb: "Saudi Arabia")
+        Match(d: "2018-06-14 22:00 +0700", ga: 5, gb: 0, gr: "A", tvs: "VTV6 HTV1 HTV4 HTVTT", ta: "Russia", tb: "Saudi Arabia")
     ]),
     Schedule(date: "2018-06-15", matches: [
         Match(d: "2018-06-15 19:00 +0700", ga: 0, gb: 0, gr: "A", tvs: "VTV3 & VTC1", ta: "Egypt", tb: "Uruguay"),
