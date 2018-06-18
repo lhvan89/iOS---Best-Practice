@@ -54,7 +54,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLc-Cj-C7R">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69761344178082196" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="closeAlert:" destination="yKE-rb-hoZ" eventType="touchUpInside" id="Y0a-iv-YVl"/>
                                 </connections>
@@ -67,6 +66,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69533925513698636" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fLc-Cj-C7R" firstAttribute="leading" secondItem="9M1-9o-yzh" secondAttribute="leading" id="632-2f-gkT"/>
                             <constraint firstItem="fLc-Cj-C7R" firstAttribute="top" secondItem="Ylz-xF-QQ8" secondAttribute="top" id="DIA-0r-PJB"/>
