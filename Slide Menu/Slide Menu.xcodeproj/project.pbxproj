@@ -333,7 +333,7 @@
 				INFOPLIST_FILE = "Slide Menu/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.Slide-Menu";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan89.Slide-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Slide Menu/SWRevealViewController/Slide Menu-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -352,7 +352,7 @@
 				INFOPLIST_FILE = "Slide Menu/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan.Slide-Menu";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan89.Slide-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Slide Menu/SWRevealViewController/Slide Menu-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
