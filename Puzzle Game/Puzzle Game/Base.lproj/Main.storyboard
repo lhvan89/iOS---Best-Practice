@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Puzzle_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xcc-7T-1Xq">
+                                <rect key="frame" x="14.5" y="94.5" width="291" height="291"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGC-7G-5J1">
+                                        <rect key="frame" x="0.0" y="0.0" width="97" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="97" id="Lcg-ia-xgc"/>
+                                            <constraint firstAttribute="height" constant="97" id="dQq-w8-QjS"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="puzzleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b6Y-0E-M80"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yjq-61-w60">
+                                        <rect key="frame" x="96.5" y="-0.5" width="97" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="72R-sA-57w"/>
+                                            <constraint firstAttribute="width" constant="97" id="Il3-3x-LUH"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="puzzleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hAj-3z-Eat"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqk-YC-pTZ">
+                                        <rect key="frame" x="194" y="0.0" width="97" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="f2D-UJ-EL3"/>
+                                            <constraint firstAttribute="width" constant="97" id="orb-eN-E2T"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="puzzleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="geR-su-QmK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2XR-v9-Mhq">
+                                        <rect key="frame" x="-0.5" y="97" width="97" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="IAv-nM-MaA"/>
+                                            <constraint firstAttribute="width" constant="97" id="vMH-aV-dyr"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="puzzleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BkC-rq-q4k"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvg-6R-pAo">
+                                        <rect key="frame" x="96.5" y="96.5" width="97" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="97" id="YtX-FR-mBr"/>
+                                            <constraint firstAttribute="height" constant="97" id="kei-mj-AiF"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="puzzleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PdW-Av-Cwg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fT8-Lc-6SB">
+                                        <rect key="frame" x="193.5" y="97" width="97" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="97" id="Ie3-7i-9AZ"/>
+                                            <constraint firstAttribute="height" constant="97" id="iqw-3B-SGV"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="puzzleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8bH-gl-Nml"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bs6-Mz-zgF">
+                                        <rect key="frame" x="0.0" y="194" width="97" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="97" id="80Z-ZF-oMn"/>
+                                            <constraint firstAttribute="height" constant="97" id="iKV-tz-J0k"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="puzzleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0WA-as-fn4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWI-6l-xmB">
+                                        <rect key="frame" x="194" y="194" width="97" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="915-LW-2ND"/>
+                                            <constraint firstAttribute="width" constant="97" id="uOU-Mf-aMX"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="puzzleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nbo-Wi-jj9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKJ-ay-KwB">
+                                        <rect key="frame" x="97" y="193.5" width="97" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="Ns9-fG-y0E"/>
+                                            <constraint firstAttribute="width" constant="97" id="s6l-1T-lZu"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="puzzleAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Te-B5-KnD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="KKJ-ay-KwB" firstAttribute="top" secondItem="cvg-6R-pAo" secondAttribute="bottom" id="0rG-ck-U4N"/>
+                                    <constraint firstItem="cvg-6R-pAo" firstAttribute="leading" secondItem="2XR-v9-Mhq" secondAttribute="trailing" id="8jK-7i-bjR"/>
+                                    <constraint firstItem="hGC-7G-5J1" firstAttribute="top" secondItem="xcc-7T-1Xq" secondAttribute="top" id="AF0-uZ-Fub"/>
+                                    <constraint firstItem="Yjq-61-w60" firstAttribute="leading" secondItem="hGC-7G-5J1" secondAttribute="trailing" id="Bcj-jM-KYn"/>
+                                    <constraint firstItem="cvg-6R-pAo" firstAttribute="top" secondItem="Yjq-61-w60" secondAttribute="bottom" id="CvI-kx-lZT"/>
+                                    <constraint firstItem="fT8-Lc-6SB" firstAttribute="top" secondItem="qqk-YC-pTZ" secondAttribute="bottom" id="JOc-lZ-BKc"/>
+                                    <constraint firstAttribute="width" constant="291" id="NGR-NP-Udm"/>
+                                    <constraint firstAttribute="width" secondItem="xcc-7T-1Xq" secondAttribute="height" id="NIM-QN-DHJ"/>
+                                    <constraint firstItem="hGC-7G-5J1" firstAttribute="leading" secondItem="xcc-7T-1Xq" secondAttribute="leading" id="TDl-0q-uyK"/>
+                                    <constraint firstItem="Yjq-61-w60" firstAttribute="top" secondItem="xcc-7T-1Xq" secondAttribute="top" id="YRO-FP-GZO"/>
+                                    <constraint firstAttribute="trailing" secondItem="fT8-Lc-6SB" secondAttribute="trailing" id="Zdo-mW-Yoy"/>
+                                    <constraint firstAttribute="bottom" secondItem="VWI-6l-xmB" secondAttribute="bottom" id="dDg-MV-N1h"/>
+                                    <constraint firstAttribute="trailing" secondItem="VWI-6l-xmB" secondAttribute="trailing" id="eha-tA-fKI"/>
+                                    <constraint firstAttribute="trailing" secondItem="qqk-YC-pTZ" secondAttribute="trailing" id="fy1-R9-vxb"/>
+                                    <constraint firstItem="KKJ-ay-KwB" firstAttribute="leading" secondItem="Bs6-Mz-zgF" secondAttribute="trailing" id="k4L-Co-H7O"/>
+                                    <constraint firstItem="Bs6-Mz-zgF" firstAttribute="leading" secondItem="xcc-7T-1Xq" secondAttribute="leading" id="kMf-hP-juy"/>
+                                    <constraint firstAttribute="bottom" secondItem="Bs6-Mz-zgF" secondAttribute="bottom" id="mFT-1O-IXp"/>
+                                    <constraint firstItem="2XR-v9-Mhq" firstAttribute="leading" secondItem="xcc-7T-1Xq" secondAttribute="leading" id="rtx-Ox-QWZ"/>
+                                    <constraint firstItem="qqk-YC-pTZ" firstAttribute="top" secondItem="xcc-7T-1Xq" secondAttribute="top" id="tbT-DD-i9d"/>
+                                    <constraint firstItem="2XR-v9-Mhq" firstAttribute="top" secondItem="hGC-7G-5J1" secondAttribute="bottom" id="zxk-vP-QS4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xcc-7T-1Xq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8K3-kb-lxj"/>
+                            <constraint firstItem="xcc-7T-1Xq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e9B-OS-9BH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="puzzle0" destination="VWI-6l-xmB" id="NhU-cj-fCc"/>
+                        <outlet property="puzzle1" destination="hGC-7G-5J1" id="Jbp-Jb-GKo"/>
+                        <outlet property="puzzle2" destination="Yjq-61-w60" id="ZLo-qN-uZK"/>
+                        <outlet property="puzzle3" destination="qqk-YC-pTZ" id="NVC-dP-rUI"/>
+                        <outlet property="puzzle4" destination="2XR-v9-Mhq" id="sbL-TO-ruM"/>
+                        <outlet property="puzzle5" destination="cvg-6R-pAo" id="JgH-Z1-dos"/>
+                        <outlet property="puzzle6" destination="fT8-Lc-6SB" id="Bjj-Fl-sXe"/>
+                        <outlet property="puzzle7" destination="Bs6-Mz-zgF" id="KKe-fp-x2c"/>
+                        <outlet property="puzzle8" destination="KKJ-ay-KwB" id="5hB-th-gxP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-99.375" y="118.75"/>
+        </scene>
+    </scenes>
+</document>
