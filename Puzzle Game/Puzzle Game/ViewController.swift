@@ -10,8 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-//    var puzzle = Array(0...8)
-    
+    @IBOutlet weak var puzzle0: UIButton!
     @IBOutlet weak var puzzle1: UIButton!
     @IBOutlet weak var puzzle2: UIButton!
     @IBOutlet weak var puzzle3: UIButton!
@@ -20,44 +19,69 @@ class ViewController: UIViewController {
     @IBOutlet weak var puzzle6: UIButton!
     @IBOutlet weak var puzzle7: UIButton!
     @IBOutlet weak var puzzle8: UIButton!
-    @IBOutlet weak var puzzle0: UIButton!
     
-    var arrButton = [UIButton]()
+    var game:[[Int]] = [
+        [0,1,2],
+        [3,4,5],
+        [6,7,8]
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        arrButton = [puzzle1, puzzle2, puzzle3, puzzle4, puzzle5, puzzle6, puzzle7, puzzle8,puzzle0]
-        initPuzzle(buttons: arrButton)
+        
+        initPuzzle(theme: "squirrel")
     }
     
     @IBAction func puzzleAction(_ sender: UIButton) {
-        print(sender.tag)
-    }
-    
-    func initPuzzle(buttons: [UIButton]){
-        var puzzle = Array(0...8)
-        for i in 0..<puzzle.count
-        {
-            let rand = Int(arc4random_uniform(UInt32(puzzle.count)))
-            buttons[i].setImage(UIImage(named: "\(puzzle[rand]).png"), for: .normal)
-            print(puzzle[rand])
-            puzzle.remove(at: rand)
-            print(puzzle)
+        let tag = sender.tag
+        
+        if tag == 2 || tag == 5 || tag == 8 {
+            print("Phai")
         }
     }
     
-
-	
+    func initPuzzle(theme: String){
+        let arrButton:[UIButton] = [puzzle0, puzzle1, puzzle2, puzzle3, puzzle4, puzzle5, puzzle6, puzzle7, puzzle8]
+        let arrRanNumber = shuffleArray(length: 9)
+        for (index, value) in arrButton.enumerated() {
+            let image = UIImage(named: "\(theme)_\(arrRanNumber[index])")
+            value.setImage(image, for: .normal)
+        }
+    }
     
-    
-    
-}
-
-extension Array {
-    func randomItem() -> Element? {
-        if isEmpty { return nil }
-        let index = Int(arc4random_uniform(UInt32(self.count)))
-        return self[index]
+    func shuffleArray(length: Int) -> [Int] {
+        var arrSequenceNumber = Array(0..<length)
+        var arrRandomNumber = [Int]()
+        for _ in 0..<arrSequenceNumber.count{
+            let rand = Int(arc4random_uniform(UInt32(arrSequenceNumber.count)))
+            arrRandomNumber.append(arrSequenceNumber[rand])
+            arrSequenceNumber.remove(at: rand)
+        }
+        return arrRandomNumber
     }
 }
+
+//extension Array {
+//
+//    func shuffle() -> Array {
+//
+//        var result = self; result.shuffleInPlace(); return result
+//    }
+//
+//    mutating func shuffleInPlace() {
+//
+//        for i in 1 ..< count { self.swapAt(i, Int(arc4random_uniform(UInt32(i+1)))) }
+//    }
+//}
+
+extension Array {
+    func shuffle() -> Array {
+        var result = self
+        for i in 1 ..< count {
+            result.swapAt(i, Int(arc4random_uniform(UInt32(i+1))))
+        }
+        return result
+    }
+}
+
 

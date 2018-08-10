@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LeaderboardViewController: UIViewController {
+class LeaderboardViewController: BaseViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var headerView: UIView!
@@ -54,6 +54,9 @@ extension LeaderboardViewController: UITableViewDataSource {
 }
 
 extension LeaderboardViewController: SurveyRequestDelegate {
+    func surveyRequest(surveyRequest: SurveyRequest, didSuccessfullyGetLeaderboard data: Leaderboard?, status: Int) {
+        //
+    }
 }
 
 
