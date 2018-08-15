@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  DemoCard
+//  Appstore iOS 11
 //
-//  Created by Van Le on 8/10/18.
+//  Created by Van Le on 8/15/18.
 //  Copyright © 2018 Van Le. All rights reserved.
 //
 
@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        
         window?.rootViewController = TodayViewController()
+        
         window?.makeKeyAndVisible()
         
         return true

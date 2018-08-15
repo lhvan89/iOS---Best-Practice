@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4A45E93310411D2211054664 /* Pods_DemoCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E967D79701A324304E07EB /* Pods_DemoCard.framework */; };
+		BF75BEB92122E06E00618FED /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75BEB82122E06E00618FED /* TodayViewController.swift */; };
+		BF75BEBB2122E3F100618FED /* TodayHeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75BEBA2122E3F100618FED /* TodayHeaderTableCell.swift */; };
 		BF8A2BA7211D897600DD861C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8A2BA6211D897600DD861C /* DetailViewController.swift */; };
 		BFA2E5B6211D7D95002EDDF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2E5B5211D7D95002EDDF5 /* AppDelegate.swift */; };
 		BFA2E5B8211D7D95002EDDF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA2E5B7211D7D95002EDDF5 /* HomeViewController.swift */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		3EF84813370E1C719C04F88B /* Pods-DemoCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCard/Pods-DemoCard.debug.xcconfig"; sourceTree = "<group>"; };
 		7FCE43BEB2474316FE9CD3D9 /* Pods-DemoCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCard/Pods-DemoCard.release.xcconfig"; sourceTree = "<group>"; };
+		BF75BEB82122E06E00618FED /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		BF75BEBA2122E3F100618FED /* TodayHeaderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayHeaderTableCell.swift; sourceTree = "<group>"; };
 		BF8A2BA6211D897600DD861C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BFA2E5B2211D7D95002EDDF5 /* DemoCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA2E5B5211D7D95002EDDF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +61,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF75BEB72122DFCB00618FED /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				BF75BEBC2122EA9B00618FED /* Cell */,
+				BF75BEB82122E06E00618FED /* TodayViewController.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		BF75BEBC2122EA9B00618FED /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BF75BEBA2122E3F100618FED /* TodayHeaderTableCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		BF8A2BA5211D895F00DD861C /* Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +115,7 @@
 		BFA2E5B4211D7D95002EDDF5 /* DemoCard */ = {
 			isa = PBXGroup;
 			children = (
+				BF75BEB72122DFCB00618FED /* Today */,
 				BF8A2BA8211D8AB100DD861C /* Home */,
 				BF8A2BA5211D895F00DD861C /* Detail */,
 				BFA2E5B5211D7D95002EDDF5 /* AppDelegate.swift */,
@@ -219,7 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF75BEBB2122E3F100618FED /* TodayHeaderTableCell.swift in Sources */,
 				BFA2E5B8211D7D95002EDDF5 /* HomeViewController.swift in Sources */,
+				BF75BEB92122E06E00618FED /* TodayViewController.swift in Sources */,
 				BFA2E5B6211D7D95002EDDF5 /* AppDelegate.swift in Sources */,
 				BF8A2BA7211D897600DD861C /* DetailViewController.swift in Sources */,
 			);
