@@ -8,23 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3A22E86E58A2AEFAB8799E69 /* Pods_Appstore_iOS_11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E6F5C4CFDA62CE28072E21 /* Pods_Appstore_iOS_11.framework */; };
+		BF91A66B2123D9A700B06E4F /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91A66A2123D9A700B06E4F /* TodayViewController.swift */; };
+		BF91A66E2123D9E900B06E4F /* TodayHeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91A66D2123D9E900B06E4F /* TodayHeaderTableCell.swift */; };
+		BF91A6732123E6AB00B06E4F /* UIImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91A6722123E6AB00B06E4F /* UIImageView+LoadImage.swift */; };
+		BF91A67721240B3E00B06E4F /* TodayAppTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91A67621240B3E00B06E4F /* TodayAppTableCell.swift */; };
 		BFC4D6322123BF4700E5BA66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC4D6312123BF4700E5BA66 /* AppDelegate.swift */; };
 		BFC4D6392123BF4900E5BA66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC4D6382123BF4900E5BA66 /* Assets.xcassets */; };
 		BFC4D63C2123BF4900E5BA66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC4D63A2123BF4900E5BA66 /* LaunchScreen.storyboard */; };
-		BFC4D6472123BFEB00E5BA66 /* TodayHeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC4D6452123BFEB00E5BA66 /* TodayHeaderTableCell.swift */; };
-		BFC4D6482123BFEB00E5BA66 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC4D6462123BFEB00E5BA66 /* TodayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A1FEF591927142AEE6B287A /* Pods-Appstore iOS 11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appstore iOS 11.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Appstore iOS 11/Pods-Appstore iOS 11.debug.xcconfig"; sourceTree = "<group>"; };
 		26E6F5C4CFDA62CE28072E21 /* Pods_Appstore_iOS_11.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appstore_iOS_11.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF91A66A2123D9A700B06E4F /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		BF91A66D2123D9E900B06E4F /* TodayHeaderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayHeaderTableCell.swift; sourceTree = "<group>"; };
+		BF91A6702123DF4D00B06E4F /* Appstore iOS 11-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Appstore iOS 11-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF91A6722123E6AB00B06E4F /* UIImageView+LoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+LoadImage.swift"; sourceTree = "<group>"; };
+		BF91A67621240B3E00B06E4F /* TodayAppTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayAppTableCell.swift; sourceTree = "<group>"; };
 		BFC4D62E2123BF4700E5BA66 /* Appstore iOS 11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appstore iOS 11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC4D6312123BF4700E5BA66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFC4D6382123BF4900E5BA66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFC4D63B2123BF4900E5BA66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFC4D63D2123BF4900E5BA66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFC4D6452123BFEB00E5BA66 /* TodayHeaderTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayHeaderTableCell.swift; sourceTree = "<group>"; };
-		BFC4D6462123BFEB00E5BA66 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodayViewController.swift; path = ../../../DemoCard/DemoCard/Today/TodayViewController.swift; sourceTree = "<group>"; };
 		DF85261376E6DA5CED8718D2 /* Pods-Appstore iOS 11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appstore iOS 11.release.xcconfig"; path = "Pods/Target Support Files/Pods-Appstore iOS 11/Pods-Appstore iOS 11.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,6 +51,23 @@
 				26E6F5C4CFDA62CE28072E21 /* Pods_Appstore_iOS_11.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF91A66C2123D9D900B06E4F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BF91A66D2123D9E900B06E4F /* TodayHeaderTableCell.swift */,
+				BF91A67621240B3E00B06E4F /* TodayAppTableCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BF91A6712123E5D700B06E4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF91A6722123E6AB00B06E4F /* UIImageView+LoadImage.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		BFC4D6252123BF4700E5BA66 = {
@@ -71,6 +93,7 @@
 			children = (
 				BFC4D6492123D7EE00E5BA66 /* AppInfo */,
 				BFC4D64A2123D82D00E5BA66 /* Features */,
+				BF91A6712123E5D700B06E4F /* Extensions */,
 			);
 			path = "Appstore iOS 11";
 			sourceTree = "<group>";
@@ -78,19 +101,10 @@
 		BFC4D6432123BFB400E5BA66 /* Today */ = {
 			isa = PBXGroup;
 			children = (
-				BFC4D6442123BFEB00E5BA66 /* Cell */,
-				BFC4D6462123BFEB00E5BA66 /* TodayViewController.swift */,
+				BF91A66C2123D9D900B06E4F /* Cell */,
+				BF91A66A2123D9A700B06E4F /* TodayViewController.swift */,
 			);
 			path = Today;
-			sourceTree = "<group>";
-		};
-		BFC4D6442123BFEB00E5BA66 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				BFC4D6452123BFEB00E5BA66 /* TodayHeaderTableCell.swift */,
-			);
-			name = Cell;
-			path = ../../../DemoCard/DemoCard/Today/Cell;
 			sourceTree = "<group>";
 		};
 		BFC4D6492123D7EE00E5BA66 /* AppInfo */ = {
@@ -100,6 +114,7 @@
 				BFC4D63A2123BF4900E5BA66 /* LaunchScreen.storyboard */,
 				BFC4D63D2123BF4900E5BA66 /* Info.plist */,
 				BFC4D6312123BF4700E5BA66 /* AppDelegate.swift */,
+				BF91A6702123DF4D00B06E4F /* Appstore iOS 11-Bridging-Header.h */,
 			);
 			path = AppInfo;
 			sourceTree = "<group>";
@@ -238,9 +253,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFC4D6482123BFEB00E5BA66 /* TodayViewController.swift in Sources */,
 				BFC4D6322123BF4700E5BA66 /* AppDelegate.swift in Sources */,
-				BFC4D6472123BFEB00E5BA66 /* TodayHeaderTableCell.swift in Sources */,
+				BF91A6732123E6AB00B06E4F /* UIImageView+LoadImage.swift in Sources */,
+				BF91A66B2123D9A700B06E4F /* TodayViewController.swift in Sources */,
+				BF91A67721240B3E00B06E4F /* TodayAppTableCell.swift in Sources */,
+				BF91A66E2123D9E900B06E4F /* TodayHeaderTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,13 +396,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T7H23GP5MD;
-				INFOPLIST_FILE = "Appstore iOS 11/Info.plist";
+				INFOPLIST_FILE = "Appstore iOS 11/AppInfo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan89.Appstore-iOS-11";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Appstore iOS 11/AppInfo/Appstore iOS 11-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -398,13 +416,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T7H23GP5MD;
-				INFOPLIST_FILE = "Appstore iOS 11/Info.plist";
+				INFOPLIST_FILE = "Appstore iOS 11/AppInfo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lhvan89.Appstore-iOS-11";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Appstore iOS 11/AppInfo/Appstore iOS 11-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
